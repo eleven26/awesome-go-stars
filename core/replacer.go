@@ -5,12 +5,12 @@ import (
 	"strings"
 )
 
-func replace(scanner *bufio.Scanner, stars map[string]int) (string, error) {
+func Replace(scanner *bufio.Scanner, stars map[string]int) (string, error) {
 	var sb strings.Builder
 
 	for scanner.Scan() {
 		line := scanner.Text()
-		links := parse(line)
+		links := Parse(line)
 
 		for _, link := range links {
 			if link.IsRepoUrl() {

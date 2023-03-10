@@ -15,7 +15,7 @@ func TestReadmeNotRepoUrl(t *testing.T) {
 
 	puller := new(mocks.Puller)
 
-	getStars([]contract.Link{l}, puller)
+	GetStars([]contract.Link{l}, puller)
 
 	l.AssertExpectations(t)
 }
@@ -32,7 +32,7 @@ func TestReadmePullFails(t *testing.T) {
 	puller := new(mocks.Puller)
 	puller.On("Pull", l.Url()).Return(result)
 
-	getStars([]contract.Link{l}, puller)
+	GetStars([]contract.Link{l}, puller)
 
 	l.AssertExpectations(t)
 	result.AssertExpectations(t)
@@ -52,7 +52,7 @@ func TestReadmePullSuccess(t *testing.T) {
 	puller := new(mocks.Puller)
 	puller.On("Pull", l.Url()).Return(result)
 
-	res := getStars([]contract.Link{l}, puller)
+	res := GetStars([]contract.Link{l}, puller)
 	assert.Len(t, res, 1)
 	assert.Equal(t, 1, res["foo"])
 

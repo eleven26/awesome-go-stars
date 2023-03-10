@@ -6,7 +6,7 @@ import (
 	"github.com/eleven26/awesome-go-stars/contract"
 )
 
-func parse(content string) []contract.Link {
+func Parse(content string) []contract.Link {
 	re := regexp.MustCompile(`- (?im)\[([^]]*)]\(([^)]*)\) - .*`)
 
 	var result []contract.Link

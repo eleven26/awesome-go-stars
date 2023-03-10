@@ -4,6 +4,8 @@ import (
 	"io"
 	"net/http"
 
+	log "github.com/sirupsen/logrus"
+
 	"github.com/eleven26/awesome-go-stars/contract"
 )
 
@@ -29,6 +31,7 @@ func (p *puller) pull(url string) (statusCode int, content []byte) {
 	client := &http.Client{}
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
+		log.Error("github new request error.", err)
 		return -1, nil
 	}
 
@@ -38,12 +41,14 @@ func (p *puller) pull(url string) (statusCode int, content []byte) {
 
 	res, err := client.Do(req)
 	if err != nil {
+		log.Error("github request error.", err)
 		return res.StatusCode, nil
 	}
 
 	defer res.Body.Close()
 	data, err := io.ReadAll(res.Body)
 	if err != nil {
+		log.Error("github read response. error", err)
 		return -1, nil
 	}
 

@@ -14,7 +14,7 @@ var readmeStr = `## Websites
 **[⬆ back to top](#contents)**`
 
 func TestParse(t *testing.T) {
-	links := parse(readmeStr)
+	links := Parse(readmeStr)
 	assert.Len(t, links, 2)
 
 	assert.Equal(t, "Awesome Go @LibHunt", links[0].Title())

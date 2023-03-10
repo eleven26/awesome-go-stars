@@ -6,7 +6,9 @@ import (
 	"github.com/eleven26/awesome-go-stars/contract"
 )
 
-func getStars(links []contract.Link, puller contract.Puller) map[string]int {
+var mu sync.Mutex
+
+func GetStars(links []contract.Link, puller contract.Puller) map[string]int {
 	result := make(map[string]int)
 
 	tickets := 10
@@ -32,7 +34,9 @@ func getStars(links []contract.Link, puller contract.Puller) map[string]int {
 				return
 			}
 
+			mu.Lock()
 			result[link.Url()] = res.Stars()
+			mu.Unlock()
 		}(l)
 	}
 

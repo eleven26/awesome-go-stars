@@ -23,7 +23,7 @@ func TestReplace(t *testing.T) {
 		"https://github.com/amit-davidson/awesome-golang-workshops": 20,
 	}
 
-	res, err := replace(scanner, mapping)
+	res, err := Replace(scanner, mapping)
 	assert.Nil(t, err)
 	assert.Equal(t, newReadmeStr, res)
 }
