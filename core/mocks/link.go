@@ -11,7 +11,12 @@ type Link struct {
 	mock.Mock
 }
 
-func (l *Link) OldTitleUrl() string {
+func (l *Link) NewMarkdownLink(star int) string {
+	args := l.Called(star)
+	return args.String(0)
+}
+
+func (l *Link) OldMarkdownLink() string {
 	args := l.Called()
 	return args.String(0)
 }

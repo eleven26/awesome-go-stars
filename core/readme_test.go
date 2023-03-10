@@ -9,33 +9,13 @@ import (
 	"github.com/eleven26/awesome-go-stars/core/mocks"
 )
 
-func TestReadmeRaw(t *testing.T) {
-	content := "foo"
-	l := new(mocks.Link)
-	puller := new(mocks.Puller)
-
-	r := NewReadme(content, []contract.Link{l}, puller)
-	assert.Equal(t, content, r.Raw())
-}
-
-func TestReadmeLinks(t *testing.T) {
-	content := "foo"
-	l := new(mocks.Link)
-	ls := []contract.Link{l}
-	puller := new(mocks.Puller)
-
-	r := NewReadme(content, []contract.Link{l}, puller)
-	assert.Equal(t, ls, r.Links())
-}
-
 func TestReadmeNotRepoUrl(t *testing.T) {
 	l := new(mocks.Link)
 	l.On("IsRepoUrl").Return(false)
 
 	puller := new(mocks.Puller)
 
-	r := NewReadme("", []contract.Link{l}, puller)
-	r.GetStars()
+	getStars([]contract.Link{l}, puller)
 
 	l.AssertExpectations(t)
 }
@@ -52,8 +32,7 @@ func TestReadmePullFails(t *testing.T) {
 	puller := new(mocks.Puller)
 	puller.On("Pull", l.Url()).Return(result)
 
-	r := NewReadme("", []contract.Link{l}, puller)
-	r.GetStars()
+	getStars([]contract.Link{l}, puller)
 
 	l.AssertExpectations(t)
 	result.AssertExpectations(t)
@@ -73,8 +52,7 @@ func TestReadmePullSuccess(t *testing.T) {
 	puller := new(mocks.Puller)
 	puller.On("Pull", l.Url()).Return(result)
 
-	r := NewReadme("", []contract.Link{l}, puller)
-	res := r.GetStars()
+	res := getStars([]contract.Link{l}, puller)
 	assert.Len(t, res, 1)
 	assert.Equal(t, 1, res["foo"])
 

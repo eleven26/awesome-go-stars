@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func replace(scanner *bufio.Scanner, mapping map[string]string) (string, error) {
+func replace(scanner *bufio.Scanner, stars map[string]int) (string, error) {
 	var sb strings.Builder
 
 	for scanner.Scan() {
@@ -14,8 +14,8 @@ func replace(scanner *bufio.Scanner, mapping map[string]string) (string, error) 
 
 		for _, link := range links {
 			if link.IsRepoUrl() {
-				if newTitleUrl, ok := mapping[link.OldTitleUrl()]; ok {
-					line = strings.Replace(line, link.OldTitleUrl(), newTitleUrl, 1)
+				if star, ok := stars[link.Url()]; ok {
+					line = strings.Replace(line, link.OldMarkdownLink(), link.NewMarkdownLink(star), 1)
 				}
 			}
 		}

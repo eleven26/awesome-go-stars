@@ -32,11 +32,11 @@ func (l *link) Url() string {
 	return l.url
 }
 
-func (l *link) OldTitleUrl() string {
+func (l *link) OldMarkdownLink() string {
 	return fmt.Sprintf("[%s](%s)", l.title, l.url)
 }
 
-func (l *link) NewTitleUrl(star int) string {
+func (l *link) NewMarkdownLink(star int) string {
 	return fmt.Sprintf("[%s(stars: %d)](%s)", l.title, star, l.url)
 }
 

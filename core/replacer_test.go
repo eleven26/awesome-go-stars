@@ -19,8 +19,8 @@ var newReadmeStr = `## Websites
 func TestReplace(t *testing.T) {
 	scanner := bufio.NewScanner(strings.NewReader(readmeStr))
 
-	mapping := map[string]string{
-		"[Awesome Golang Workshops](https://github.com/amit-davidson/awesome-golang-workshops)": "[Awesome Golang Workshops(stars: 20)](https://github.com/amit-davidson/awesome-golang-workshops)",
+	mapping := map[string]int{
+		"https://github.com/amit-davidson/awesome-golang-workshops": 20,
 	}
 
 	res, err := replace(scanner, mapping)

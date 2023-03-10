@@ -6,37 +6,14 @@ import (
 	"github.com/eleven26/awesome-go-stars/contract"
 )
 
-type readme struct {
-	content string
-
-	links  []contract.Link
-	puller contract.Puller
-}
-
-func NewReadme(content string, links []contract.Link, puller contract.Puller) contract.Readme {
-	return &readme{
-		content: content,
-		links:   links,
-		puller:  puller,
-	}
-}
-
-func (r *readme) Links() []contract.Link {
-	return r.links
-}
-
-func (r *readme) Raw() string {
-	return r.content
-}
-
-func (r *readme) GetStars() map[string]int {
+func getStars(links []contract.Link, puller contract.Puller) map[string]int {
 	result := make(map[string]int)
 
 	tickets := 10
 	ch := make(chan struct{}, tickets)
 	var wg sync.WaitGroup
 
-	for _, l := range r.links {
+	for _, l := range links {
 		ch <- struct{}{}
 		wg.Add(1)
 
@@ -50,7 +27,7 @@ func (r *readme) GetStars() map[string]int {
 				return
 			}
 
-			res := r.puller.Pull(link.ApiEndpoint())
+			res := puller.Pull(link.ApiEndpoint())
 			if !res.Ok() {
 				return
 			}
