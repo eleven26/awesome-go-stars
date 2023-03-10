@@ -4,6 +4,7 @@ type Link interface {
 	Title() string
 	Url() string
 	Raw() string
+	OldTitleUrl() string
 	IsRepoUrl() bool
 	ApiEndpoint() string
 }
