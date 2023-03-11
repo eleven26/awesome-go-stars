@@ -1,0 +1,24 @@
+name: awesome go stars schedule
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.19
+
+      - name: Update README
+        run: |
+          go run main.go -t ${{ secrets.GITHUB_TOKEN }}
+          git add README.md
+          git commit -m "Update stars."
+          git push -u origin main
