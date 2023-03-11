@@ -15,7 +15,7 @@ const ReadmeUrl = "https://raw.githubusercontent.com/avelino/awesome-go/master/R
 func init() {
 	log.SetFormatter(&log.JSONFormatter{})
 	log.SetOutput(os.Stdout)
-	log.SetLevel(log.WarnLevel)
+	log.SetLevel(log.DebugLevel)
 }
 
 func main() {

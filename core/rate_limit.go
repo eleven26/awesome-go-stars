@@ -66,6 +66,11 @@ func getRateLimitResponse(token, url string) (*RateLimitResponse, error) {
 		return nil, errors.Wrap(err, "github read response. error")
 	}
 
+	if res.StatusCode != http.StatusOK {
+		log.Info(string(data))
+		return nil, errors.New("github request error. status code: " + cast.ToString(res.StatusCode))
+	}
+
 	resp := RateLimitResponse{}
 	err = json.Unmarshal(data, &resp)
 	if err != nil {
