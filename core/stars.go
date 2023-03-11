@@ -3,6 +3,8 @@ package core
 import (
 	"sync"
 
+	"github.com/schollz/progressbar/v3"
+
 	"github.com/eleven26/awesome-go-stars/contract"
 )
 
@@ -11,7 +13,12 @@ var mu sync.Mutex
 func GetStars(links []contract.Link, puller contract.Puller) map[string]int {
 	result := make(map[string]int)
 
-	tickets := 10
+	// progress bar
+	count := len(links)
+	bar := progressbar.Default(int64(count))
+
+	// limit goroutines
+	tickets := 50
 	ch := make(chan struct{}, tickets)
 	var wg sync.WaitGroup
 
@@ -23,6 +30,7 @@ func GetStars(links []contract.Link, puller contract.Puller) map[string]int {
 			defer func() {
 				<-ch
 				wg.Done()
+				_ = bar.Add(1)
 			}()
 
 			if !link.IsRepoUrl() {

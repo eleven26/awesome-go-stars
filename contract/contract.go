@@ -18,3 +18,7 @@ type PullResult interface {
 	Stars() int
 	Ok() bool
 }
+
+type Handler interface {
+	Handle() error
+}
