@@ -18,7 +18,7 @@ jobs:
 
       - name: Update README
         run: |
-          go run main.go -t ${{ vars.API_TOKEN }}
+          go run main.go -t ${{ secrets.API_TOKEN }}
           git add README.md
           git commit -m "Update stars."
           git push -u origin main
