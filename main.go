@@ -44,6 +44,11 @@ func updateReadme(cmd *cobra.Command, args []string) {
 		}
 	}
 
+	err := core.CheckRateLimit(token)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	path, err := filepath.Abs("./README.md")
 	if err != nil {
 		log.Fatal(err)
