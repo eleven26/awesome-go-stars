@@ -2,7 +2,7 @@ name: awesome go stars schedule
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '* * * * *'
 
 jobs:
   update-readme:
@@ -23,6 +23,8 @@ jobs:
           API_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
           go run main.go
+          git config --global user.name 'eleven26'
+          git config --global user.email 'rubymay21s@gmail.com'
           git add README.md
           git commit -m "Update stars."
           git push -u origin main
