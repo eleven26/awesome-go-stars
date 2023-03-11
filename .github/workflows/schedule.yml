@@ -17,10 +17,11 @@ jobs:
           go-version: 1.19
 
       - name: Update README
+        shell: bash
         env:
-          API_TOKEN: ${{ secrets.API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
-          go run main.go -t "$API_TOKEN"
+          go run main.go
           git add README.md
           git commit -m "Update stars."
           git push -u origin main
