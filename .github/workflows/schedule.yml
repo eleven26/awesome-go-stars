@@ -2,7 +2,7 @@ name: awesome go stars schedule
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 3 * * *'
 
 jobs:
   update-readme:
