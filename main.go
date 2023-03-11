@@ -38,9 +38,9 @@ func main() {
 func updateReadme(cmd *cobra.Command, args []string) {
 	token, _ := cmd.Flags().GetString("token")
 	if token == "" {
-		token = os.Getenv("GITHUB_TOKEN")
+		token = os.Getenv("API_TOKEN")
 		if token == "" {
-			log.Fatal("Token is empty. please set GITHUB_TOKEN env or use -t flag to set token.")
+			log.Fatal("Token is empty. please set API_TOKEN env or use -t flag to set token.")
 		}
 	}
 

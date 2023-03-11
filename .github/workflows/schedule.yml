@@ -7,6 +7,7 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    environment: awesome-go-stars
 
     steps:
       - uses: actions/checkout@v3
@@ -19,7 +20,7 @@ jobs:
       - name: Update README
         shell: bash
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
           go run main.go
           git add README.md
