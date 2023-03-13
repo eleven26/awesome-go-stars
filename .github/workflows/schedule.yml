@@ -1,8 +1,7 @@
 name: awesome go stars schedule
 
 on:
-  schedule:
-    - cron: '48 8 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
