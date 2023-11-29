@@ -208,11 +208,11 @@ _Libraries for manipulating audio._
 - [gaad(stars: 114)](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
 - [GoAudio(stars: 304)](https://github.com/DylanMeeus/GoAudio) - Native Go Audio Processing Library.
 - [gosamplerate(stars: 30)](https://github.com/dh1tw/gosamplerate) - libsamplerate bindings for go.
-- [id3v2(stars: 308)](https://github.com/bogem/id3v2) - ID3 decoding and encoding library for Go.
+- [id3v2(stars: 309)](https://github.com/bogem/id3v2) - ID3 decoding and encoding library for Go.
 - [malgo(stars: 236)](https://github.com/gen2brain/malgo) - Mini audio library.
 - [minimp3(stars: 114)](https://github.com/tosone/minimp3) - Lightweight MP3 decoder library.
 - [Oto(stars: 1395)](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
-- [PortAudio(stars: 632)](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
+- [PortAudio(stars: 633)](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 
 **[⬆ back to top](#contents)**
 
@@ -222,29 +222,29 @@ _Libraries for implementing authentication schemes._
 
 - [authboss(stars: 3531)](https://github.com/volatiletech/authboss) - Modular authentication system for the web. It tries to remove as much boilerplate and "hard things" as possible so that each time you start a new web project in Go, you can plug it in, configure it, and start building your app without having to build an authentication system each time.
 - [branca(stars: 67)](https://github.com/essentialkaos/branca) - branca token [specification implementation](https://github.com/tuupola/branca-spec) for Golang 1.15+.
-- [casbin(stars: 16067)](https://github.com/hsluoyz/casbin) - Authorization library that supports access control models like ACL, RBAC, and ABAC.
+- [casbin(stars: 16072)](https://github.com/hsluoyz/casbin) - Authorization library that supports access control models like ACL, RBAC, and ABAC.
 - [cookiestxt(stars: 12)](https://github.com/mengzhuo/cookiestxt) - provides a parser of cookies.txt file format.
 - [go-guardian(stars: 501)](https://github.com/shaj13/go-guardian) - Go-Guardian is a golang library that provides a simple, clean, and idiomatic way to create powerful modern API and web authentication that supports LDAP, Basic, Bearer token, and Certificate based authentication.
 - [go-jose(stars: 181)](https://github.com/go-jose/go-jose) - Fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs.
-- [gologin(stars: 1650)](https://github.com/dghubble/gologin) - chainable handlers for login with OAuth1 and OAuth2 authentication providers.
+- [gologin(stars: 1648)](https://github.com/dghubble/gologin) - chainable handlers for login with OAuth1 and OAuth2 authentication providers.
 - [gorbac(stars: 1511)](https://github.com/mikespook/gorbac) - provides a lightweight role-based access control (RBAC) implementation in Golang.
 - [gosession](http://github.com/Kwynto/gosession) - This is quick session for net/http in GoLang. This package is perhaps the best implementation of the session mechanism, or at least it tries to become one.
-- [goth(stars: 4414)](https://github.com/markbates/goth) - provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple providers out of the box.
+- [goth(stars: 4441)](https://github.com/markbates/goth) - provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple providers out of the box.
 - [jeff(stars: 258)](https://github.com/abraithwaite/jeff) - Simple, flexible, secure, and idiomatic web session management with pluggable backends.
 - [jwt(stars: 339)](https://github.com/pascaldekloe/jwt) - Lightweight JSON Web Token (JWT) library.
 - [jwt(stars: 626)](https://github.com/cristalhq/jwt) - Safe, simple, and fast JSON Web Tokens for Go.
 - [jwt-auth(stars: 231)](https://github.com/adam-hanna/jwt-auth) - JWT middleware for Golang http servers with many configuration options.
-- [jwt-go(stars: 5664)](https://github.com/golang-jwt/jwt) - A full featured implementation of JSON Web Tokens (JWT). This library supports the parsing and verification as well as the generation and signing of JWTs.
-- [keto(stars: 4343)](https://github.com/ory/keto) - Open Source (Go) implementation of "Zanzibar: Google's Consistent, Global Authorization System". Ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
+- [jwt-go(stars: 5674)](https://github.com/golang-jwt/jwt) - A full featured implementation of JSON Web Tokens (JWT). This library supports the parsing and verification as well as the generation and signing of JWTs.
+- [keto(stars: 4345)](https://github.com/ory/keto) - Open Source (Go) implementation of "Zanzibar: Google's Consistent, Global Authorization System". Ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
 - [loginsrv(stars: 1900)](https://github.com/tarent/loginsrv) - JWT login microservice with pluggable backends such as OAuth2 (Github), htpasswd, osiam.
-- [oauth2(stars: 4956)](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine, and App Engine support.
+- [oauth2(stars: 4958)](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine, and App Engine support.
 - [osin(stars: 1848)](https://github.com/openshift/osin) - Golang OAuth2 server library.
 - [otpgen(stars: 132)](https://github.com/grijul/otpgen) - Library to generate TOTP/HOTP codes.
 - [otpgo(stars: 61)](https://github.com/jltorresm/otpgo) - Time-Based One-Time Password (TOTP) and HMAC-Based One-Time Password (HOTP) library for Go.
 - [paseto(stars: 767)](https://github.com/o1egl/paseto) - Golang implementation of Platform-Agnostic Security Tokens (PASETO).
 - [permissions2(stars: 494)](https://github.com/xyproto/permissions2) - Library for keeping track of users, login states, and permissions. Uses secure cookies and bcrypt.
 - [scope(stars: 33)](https://github.com/SonicRoshan/scope) - Easily Manage OAuth2 Scopes In Go.
-- [scs(stars: 1713)](https://github.com/alexedwards/scs) - Session Manager for HTTP servers.
+- [scs(stars: 1715)](https://github.com/alexedwards/scs) - Session Manager for HTTP servers.
 - [securecookie(stars: 74)](https://github.com/chmike/securecookie) - Efficient secure cookie encoding/decoding.
 - [session(stars: 111)](https://github.com/icza/session) - Go session management for web servers (including support for Google App Engine - GAE).
 - [sessions(stars: 75)](https://github.com/adam-hanna/sessions) - Dead simple, highly performant, highly customizable sessions service for go http servers.
@@ -259,10 +259,10 @@ _Tools for building blockchains._
 
 - [cometbft(stars: 395)](https://github.com/cometbft/cometbft) - A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. It is a fork of Tendermint Core and implements the Tendermint consensus algorithm.
 - [cosmos-sdk(stars: 5524)](https://github.com/cosmos/cosmos-sdk) - A Framework for Building Public Blockchains in the Cosmos Ecosystem.
-- [go-ethereum(stars: 44118)](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol.
+- [go-ethereum(stars: 44126)](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol.
 - [gossamer(stars: 398)](https://github.com/ChainSafe/gossamer) - A Go implementation of the Polkadot Host.
-- [kubo(stars: 15519)](https://github.com/ipfs/kubo) - A blockchain framework implemented in Go. It provides content-addressable storage which can be used for decentralized storage in DApps. It is based on the IPFS protocol.
-- [solana-go(stars: 463)](https://github.com/gagliardetto/solana-go) - Go library to interface with Solana JSON RPC and WebSocket interfaces.
+- [kubo(stars: 15522)](https://github.com/ipfs/kubo) - A blockchain framework implemented in Go. It provides content-addressable storage which can be used for decentralized storage in DApps. It is based on the IPFS protocol.
+- [solana-go(stars: 464)](https://github.com/gagliardetto/solana-go) - Go library to interface with Solana JSON RPC and WebSocket interfaces.
 - [tendermint(stars: 5566)](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
 
 **[⬆ back to top](#contents)**
@@ -290,13 +290,13 @@ _Libraries for building and working with bots._
 - [slack-bot(stars: 153)](https://github.com/innogames/slack-bot) - Ready to use Slack Bot for lazy developers: Custom commands, Jenkins, Jira, Bitbucket, Github...
 - [slacker(stars: 809)](https://github.com/shomali11/slacker) - Easy to use framework to create Slack bots.
 - [slackscot(stars: 56)](https://github.com/alexandre-normand/slackscot) - Another framework for building Slack bots.
-- [tbot(stars: 342)](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
-- [telebot(stars: 3383)](https://github.com/tucnak/telebot) - Telegram bot framework is written in Go.
+- [tbot(stars: 343)](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
+- [telebot(stars: 3384)](https://github.com/tucnak/telebot) - Telegram bot framework is written in Go.
 - [telego(stars: 294)](https://github.com/mymmrac/telego) - Telegram Bot API library for Golang with full one-to-one API implementation.
-- [telegram-bot-api(stars: 5101)](https://github.com/Syfaro/telegram-bot-api) - Simple and clean Telegram bot client.
+- [telegram-bot-api(stars: 5104)](https://github.com/Syfaro/telegram-bot-api) - Simple and clean Telegram bot client.
 - [teleterm(stars: 32)](https://github.com/alfiankan/teleterm) - Telegram Bot Exec Terminal Command.
 - [Tenyks(stars: 176)](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
-- [wayback(stars: 1504)](https://github.com/wabarc/wayback) - A bot for Telegram, Mastodon, Slack, and other messaging platforms archives webpages.
+- [wayback(stars: 1505)](https://github.com/wabarc/wayback) - A bot for Telegram, Mastodon, Slack, and other messaging platforms archives webpages.
 
 **[⬆ back to top](#contents)**
 
@@ -309,10 +309,10 @@ _Libraries and tools help with build automation._
 - [gaper(stars: 76)](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 - [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
 - [goyek(stars: 404)](https://github.com/goyek/goyek) - Create build pipelines in Go.
-- [mage(stars: 3748)](https://github.com/magefile/mage) - Mage is a make/rake-like build tool using Go.
+- [mage(stars: 3751)](https://github.com/magefile/mage) - Mage is a make/rake-like build tool using Go.
 - [mmake(stars: 1688)](https://github.com/tj/mmake) - Modern Make.
 - [realize(stars: 4428)](https://github.com/tockins/realize) - Go build a system with file watchers and live to reload. Run, build and watch file changes with custom paths.
-- [Task(stars: 8980)](https://github.com/go-task/task) - simple "Make" alternative.
+- [Task(stars: 8987)](https://github.com/go-task/task) - simple "Make" alternative.
 - [taskctl(stars: 270)](https://github.com/taskctl/taskctl) - Concurrent task runner.
 - [xc(stars: 914)](https://github.com/joerdav/xc) - Task runner with README.md defined tasks, executable markdown.
 
@@ -327,9 +327,9 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [asciigraph(stars: 2351)](https://github.com/guptarohit/asciigraph) - Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies.
 - [aurora(stars: 1358)](https://github.com/logrusorgru/aurora) - ANSI terminal colors that support fmt.Printf/Sprintf.
 - [box-cli-maker(stars: 425)](https://github.com/Delta456/box-cli-maker) - Make Highly Customized Boxes for your CLI.
-- [bubble-table(stars: 266)](https://github.com/Evertras/bubble-table) - An interactive table component for bubbletea.
-- [bubbles(stars: 4045)](https://github.com/charmbracelet/bubbles) - TUI components for bubbletea.
-- [bubbletea(stars: 21033)](https://github.com/charmbracelet/bubbletea) - Go framework to build terminal apps, based on The Elm Architecture.
+- [bubble-table(stars: 267)](https://github.com/Evertras/bubble-table) - An interactive table component for bubbletea.
+- [bubbles(stars: 4051)](https://github.com/charmbracelet/bubbles) - TUI components for bubbletea.
+- [bubbletea(stars: 21048)](https://github.com/charmbracelet/bubbletea) - Go framework to build terminal apps, based on The Elm Architecture.
 - [cfmt(stars: 98)](https://github.com/mingrammer/cfmt) - Contextual fmt inspired by bootstrap color classes.
 - [cfmt(stars: 60)](https://github.com/i582/cfmt) - Simple and convenient formatted stylized output fully compatible with fmt library.
 - [chalk(stars: 435)](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
@@ -339,28 +339,28 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [go-ataman(stars: 16)](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
 - [go-colorable(stars: 714)](https://github.com/mattn/go-colorable) - Colorable writer for windows.
 - [go-colortext(stars: 214)](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
-- [go-isatty(stars: 758)](https://github.com/mattn/go-isatty) - isatty for golang.
+- [go-isatty(stars: 760)](https://github.com/mattn/go-isatty) - isatty for golang.
 - [go-palette(stars: 14)](https://github.com/abusomani/go-palette) - Go library that provides elegant and convenient style definitions using ANSI colors. Fully compatible & wraps the [fmt library](https://pkg.go.dev/fmt) for nice terminal layouts.
 - [go-prompt(stars: 5070)](https://github.com/c-bata/go-prompt) - Library for building a powerful interactive prompt, inspired by [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit).
-- [gocui(stars: 9460)](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
+- [gocui(stars: 9463)](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
 - [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 - [gookit/color(stars: 1402)](https://github.com/gookit/color) - Terminal color rendering tool library, support 16 colors, 256 colors, RGB color rendering output, compatible with Windows.
-- [lipgloss(stars: 6659)](https://github.com/charmbracelet/lipgloss) - Declaratively define styles for color, format and layout in the terminal.
+- [lipgloss(stars: 6663)](https://github.com/charmbracelet/lipgloss) - Declaratively define styles for color, format and layout in the terminal.
 - [marker(stars: 45)](https://github.com/cyucelen/marker) - Easiest way to match and mark strings for colorful terminal outputs.
-- [mpb(stars: 2130)](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
-- [progressbar(stars: 3597)](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
-- [pterm(stars: 4316)](https://github.com/pterm/pterm) - A library to beautify console output on every platform with many combinable components.
-- [simpletable(stars: 490)](https://github.com/alexeyco/simpletable) - Simple tables in a terminal with Go.
-- [spinner(stars: 2189)](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
+- [mpb(stars: 2135)](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
+- [progressbar(stars: 3598)](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
+- [pterm(stars: 4319)](https://github.com/pterm/pterm) - A library to beautify console output on every platform with many combinable components.
+- [simpletable(stars: 492)](https://github.com/alexeyco/simpletable) - Simple tables in a terminal with Go.
+- [spinner(stars: 2190)](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 - [tabby(stars: 337)](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
 - [table(stars: 46)](https://github.com/tomlazar/table) - Small library for terminal color based tables .
 - [tabular(stars: 74)](https://github.com/InVisionApp/tabular) - Print ASCII tables from command line utilities without the need to pass large sets of data to the API.
 - [termbox-go(stars: 4583)](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 - [termdash(stars: 2388)](https://github.com/mum4k/termdash) - Go terminal dashboard based on **termbox-go** and inspired by [termui](https://github.com/gizak/termui).
-- [termenv(stars: 1536)](https://github.com/muesli/termenv) - Advanced ANSI style & color support for your terminal applications.
+- [termenv(stars: 1541)](https://github.com/muesli/termenv) - Advanced ANSI style & color support for your terminal applications.
 - [termui(stars: 12715)](https://github.com/gizak/termui) - Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
 - [uilive(stars: 1626)](https://github.com/gosuri/uilive) - Library for updating terminal output in real time.
-- [uiprogress(stars: 2048)](https://github.com/gosuri/uiprogress) - Flexible library to render progress bars in terminal applications.
+- [uiprogress(stars: 2049)](https://github.com/gosuri/uiprogress) - Flexible library to render progress bars in terminal applications.
 - [uitable(stars: 716)](https://github.com/gosuri/uitable) - Library to improve readability in terminal apps using tabular data.
 - [yacspin(stars: 419)](https://github.com/theckman/yacspin) - Yet Another CLi Spinner package, for working with terminal spinners.
 
@@ -371,37 +371,37 @@ _Libraries for building Console Applications and Console User Interfaces._
 _Libraries for building standard or basic Command Line applications._
 
 - [acmd(stars: 100)](https://github.com/cristalhq/acmd) - Simple, useful, and opinionated CLI package in Go.
-- [argparse(stars: 567)](https://github.com/akamensky/argparse) - Command line argument parser inspired by Python's argparse module.
+- [argparse(stars: 568)](https://github.com/akamensky/argparse) - Command line argument parser inspired by Python's argparse module.
 - [argv(stars: 39)](https://github.com/cosiner/argv) - Go library to split command line string as arguments array using the bash syntax.
 - [carapace(stars: 143)](https://github.com/rsteube/carapace) - Command argument completion generator for spf13/cobra.
-- [carapace-bin(stars: 460)](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
-- [carapace-spec(stars: 10)](https://github.com/rsteube/carapace-spec) - Define simple completions using a spec file.
-- [cli(stars: 702)](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
+- [carapace-bin(stars: 463)](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
+- [carapace-spec(stars: 11)](https://github.com/rsteube/carapace-spec) - Define simple completions using a spec file.
+- [cli(stars: 703)](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
 - [cli(stars: 122)](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
 - [climax(stars: 212)](https://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
-- [clîr(stars: 160)](https://github.com/leaanthony/clir) - A Simple and Clear CLI library. Dependency free.
+- [clîr(stars: 161)](https://github.com/leaanthony/clir) - A Simple and Clear CLI library. Dependency free.
 - [cmd(stars: 41)](https://github.com/posener/cmd) - Extends the standard `flag` package to support sub commands and more in idiomatic way.
 - [cmdr(stars: 124)](https://github.com/hedzr/cmdr) - A POSIX/GNU style, getopt-like command-line UI Go library.
-- [cobra(stars: 34269)](https://github.com/spf13/cobra) - Commander for modern Go CLI interactions.
+- [cobra(stars: 34284)](https://github.com/spf13/cobra) - Commander for modern Go CLI interactions.
 - [command-chain(stars: 50)](https://github.com/rainu/go-command-chain) - A go library for configure and run command chains - such as pipelining in unix shells.
 - [commandeer(stars: 171)](https://github.com/jaffee/commandeer) - Dev-friendly CLI apps: sets up flags, defaults, and usage based on struct fields and tags.
 - [complete(stars: 899)](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
-- [Dnote(stars: 2602)](https://github.com/dnote/dnote) - A simple command line notebook with multi-device sync.
+- [Dnote(stars: 2603)](https://github.com/dnote/dnote) - A simple command line notebook with multi-device sync.
 - [elvish(stars: 5182)](https://github.com/elves/elvish) - An expressive programming language and a versatile interactive shell.
 - [env(stars: 107)](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
 - [flag(stars: 129)](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
 - [flaggy(stars: 838)](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
 - [flagvar(stars: 43)](https://github.com/sgreben/flagvar) - A collection of flag argument types for Go's standard `flag` package.
 - [go-andotp(stars: 26)](https://github.com/grijul/go-andotp) - A CLI program to encrypt/decrypt [andOTP](https://github.com/andOTP/andOTP) files. Can be used as a library as well.
-- [go-arg(stars: 1749)](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
+- [go-arg(stars: 1751)](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
 - [go-commander(stars: 35)](https://github.com/yitsushi/go-commander) - Go library to simplify CLI workflow.
 - [go-flags(stars: 2463)](https://github.com/jessevdk/go-flags) - go command line option parser.
 - [go-getoptions(stars: 52)](https://github.com/DavidGamba/go-getoptions) - Go option parser inspired by the flexibility of Perl’s GetOpt::Long.
 - [gocmd(stars: 66)](https://github.com/devfacet/gocmd) - Go library for building command line applications.
 - [hiboot cli](https://github.com/hidevopsio/hiboot/tree/master/pkg/app/cli) - cli application framework with auto configuration and dependency injection.
 - [job(stars: 136)](https://github.com/liujianping/job) - JOB, make your short-term command as a long-term job.
-- [kingpin(stars: 3386)](https://github.com/alecthomas/kingpin) - Command line and flag parser supporting sub commands (superseded by `kong`; see below).
-- [liner(stars: 1013)](https://github.com/peterh/liner) - Go readline-like library for command-line interfaces.
+- [kingpin(stars: 3389)](https://github.com/alecthomas/kingpin) - Command line and flag parser supporting sub commands (superseded by `kong`; see below).
+- [liner(stars: 1014)](https://github.com/peterh/liner) - Go readline-like library for command-line interfaces.
 - [mcli(stars: 24)](https://github.com/jxskiss/mcli) - A minimal but very powerful cli library for Go.
 - [mitchellh/cli(stars: 1691)](https://github.com/mitchellh/cli) - Go library for implementing command-line interfaces.
 - [mow.cli](https://github.com/jawher/mow.cli) - Go library for building CLI applications with sophisticated flag and argument parsing and validation.
@@ -412,10 +412,10 @@ _Libraries for building standard or basic Command Line applications._
 - [sflags(stars: 148)](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin, and other libraries.
 - [strumt(stars: 57)](https://github.com/antham/strumt) - Library to create prompt chain.
 - [subcmd(stars: 6)](https://github.com/bobg/subcmd) - Another approach to parsing and running subcommands. Works alongside the standard `flag` package.
-- [survey(stars: 3978)](https://github.com/go-survey/survey) - Build interactive and accessible prompts with full support for windows and posix terminals.
+- [survey(stars: 3979)](https://github.com/go-survey/survey) - Build interactive and accessible prompts with full support for windows and posix terminals.
 - [ts(stars: 20)](https://github.com/liujianping/ts) - Timestamp convert & compare tool.
 - [ukautz/clif(stars: 125)](https://github.com/ukautz/clif) - Small command line interface framework.
-- [urfave/cli(stars: 20991)](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
+- [urfave/cli(stars: 20993)](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
 - [version(stars: 79)](https://github.com/mszostok/version) - Collects and displays CLI version information in multiple formats along with upgrade notice.
 - [wlog(stars: 63)](https://github.com/dixonwille/wlog) - Simple logging interface that supports cross-platform color and concurrency.
 - [wmenu(stars: 198)](https://github.com/dixonwille/wmenu) - Easy to use menu structure for cli applications that prompt users to make choices.
@@ -426,9 +426,9 @@ _Libraries for building standard or basic Command Line applications._
 
 _Libraries for configuration parsing._
 
-- [aconfig(stars: 491)](https://github.com/cristalhq/aconfig) - Simple, useful and opinionated config loader.
-- [cleanenv(stars: 1242)](https://github.com/ilyakaznacheev/cleanenv) - Minimalistic configuration reader (from files, ENV, and wherever you want).
-- [config(stars: 330)](https://github.com/JeremyLoy/config) - Cloud native application configuration. Bind ENV to structs in only two lines.
+- [aconfig(stars: 492)](https://github.com/cristalhq/aconfig) - Simple, useful and opinionated config loader.
+- [cleanenv(stars: 1245)](https://github.com/ilyakaznacheev/cleanenv) - Minimalistic configuration reader (from files, ENV, and wherever you want).
+- [config(stars: 331)](https://github.com/JeremyLoy/config) - Cloud native application configuration. Bind ENV to structs in only two lines.
 - [config(stars: 44)](https://github.com/num30/config) - configure you app using file, environment variables, or flags in two lines of code
 - [config(stars: 268)](https://github.com/olebedev/config) - JSON or YAML configuration wrapper with environment variables and flags parsing.
 - [configuration(stars: 84)](https://github.com/BoRuDar/configuration) - Library for initializing configuration structs from env variables, files, flags and 'default' tag.
@@ -436,7 +436,7 @@ _Libraries for configuration parsing._
 - [configuro(stars: 89)](https://github.com/sherifabdlnaby/configuro) - opinionated configuration loading & validation framework from ENV and Files focused towards 12-Factor compliant applications.
 - [confita(stars: 477)](https://github.com/heetch/confita) - Load configuration in cascade from multiple backends into a struct.
 - [conflate(stars: 30)](https://github.com/the4thamigo-uk/conflate) - Library/tool to merge multiple JSON/YAML/TOML files from arbitrary URLs, validation against a JSON schema, and application of default values defined in the schema.
-- [env(stars: 4006)](https://github.com/caarlos0/env) - Parse environment variables to Go structs (with defaults).
+- [env(stars: 4008)](https://github.com/caarlos0/env) - Parse environment variables to Go structs (with defaults).
 - [env(stars: 42)](https://github.com/junk1tm/env) - A lightweight package for loading environment variables into structs.
 - [envcfg(stars: 102)](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
 - [envconf(stars: 11)](https://github.com/ian-kent/envconf) - Configuration from environment.
@@ -451,7 +451,7 @@ _Libraries for configuration parsing._
 - [go-ssm-config(stars: 18)](https://github.com/ianlopshire/go-ssm-config) - Go utility for loading configuration parameters from AWS SSM (Parameter Store).
 - [go-up(stars: 43)](https://github.com/ufoscout/go-up) - A simple configuration library with recursive placeholders resolution and no magic.
 - [goConfig(stars: 3)](https://github.com/crgimenes/goConfig) - Parses a struct as input and populates the fields of this struct with parameters from command line, environment variables and configuration file.
-- [godotenv(stars: 6903)](https://github.com/joho/godotenv) - Go port of Ruby's dotenv library (Loads environment variables from `.env`).
+- [godotenv(stars: 6907)](https://github.com/joho/godotenv) - Go port of Ruby's dotenv library (Loads environment variables from `.env`).
 - [gofigure(stars: 67)](https://github.com/ian-kent/gofigure) - Go application configuration made easy.
 - [GoLobby/Config(stars: 346)](https://github.com/golobby/config) - GoLobby Config is a lightweight yet powerful configuration manager for the Go programming language.
 - [gone/jconf](https://github.com/One-com/gone/tree/master/jconf) - Modular JSON configuration. Keep you config structs along with the code they configure and delegate parsing to submodules without sacrificing full config serialization.
@@ -464,10 +464,10 @@ _Libraries for configuration parsing._
 - [ini(stars: 3351)](https://github.com/go-ini/ini) - Go package to read and write INI files.
 - [ini(stars: 14)](https://github.com/wlevene/ini) - INI Parser & Write Library, Unmarshal to Struct,Marshal to Json,Write File,watch file.
 - [joshbetz/config(stars: 216)](https://github.com/joshbetz/config) - Small configuration library for Go that parses environment variables, JSON files, and reloads automatically on SIGHUP.
-- [kelseyhightower/envconfig(stars: 4730)](https://github.com/kelseyhightower/envconfig) - Go library for managing configuration data from environment variables.
+- [kelseyhightower/envconfig(stars: 4731)](https://github.com/kelseyhightower/envconfig) - Go library for managing configuration data from environment variables.
 - [koanf(stars: 2105)](https://github.com/knadh/koanf) - Light weight, extensible library for reading config in Go applications. Built in support for JSON, TOML, YAML, env, command line.
-- [konfig(stars: 640)](https://github.com/lalamove/konfig) - Composable, observable and performant config handling for Go for the distributed processing era.
-- [kong(stars: 1638)](https://github.com/alecthomas/kong) - Command-line parser with support for arbitrarily complex command-line structures and additional sources of configuration such as YAML, JSON, TOML, etc (successor to `kingpin`).
+- [konfig(stars: 641)](https://github.com/lalamove/konfig) - Composable, observable and performant config handling for Go for the distributed processing era.
+- [kong(stars: 1641)](https://github.com/alecthomas/kong) - Command-line parser with support for arbitrarily complex command-line structures and additional sources of configuration such as YAML, JSON, TOML, etc (successor to `kingpin`).
 - [mini(stars: 34)](https://github.com/sasbury/mini) - Golang package for parsing ini-style configuration files.
 - [nasermirzaei89/env(stars: 10)](https://github.com/nasermirzaei89/env) - Simple useful package for read environment variables.
 - [nfigure(stars: 6)](https://github.com/muir/nfigure) - Per-library struct-tag based configuration from command lines (Posix & Go-style); environment, JSON, YAML
@@ -477,8 +477,8 @@ _Libraries for configuration parsing._
 - [swap(stars: 8)](https://github.com/oblq/swap) - Instantiate/configure structs recursively, based on build environment. (YAML, TOML, JSON and env).
 - [typenv(stars: 9)](https://github.com/diegomarangoni/typenv) - Minimalistic, zero dependency, typed environment variables library.
 - [uConfig(stars: 64)](https://github.com/omeid/uconfig) - Lightweight, zero-dependency, and extendable configuration management.
-- [viper(stars: 24608)](https://github.com/spf13/viper) - Go configuration with fangs.
-- [xdg(stars: 484)](https://github.com/adrg/xdg) - Go implementation of the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html) and [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories).
+- [viper(stars: 24620)](https://github.com/spf13/viper) - Go configuration with fangs.
+- [xdg(stars: 485)](https://github.com/adrg/xdg) - Go implementation of the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html) and [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories).
 - [xdg(stars: 79)](https://github.com/OpenPeeDeeP/xdg) - Cross platform package that follows the [XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
 **[⬆ back to top](#contents)**
@@ -487,11 +487,11 @@ _Libraries for configuration parsing._
 
 _Tools for help with continuous integration._
 
-- [CDS(stars: 4332)](https://github.com/ovh/cds) - Enterprise-Grade CI/CD and DevOps Automation Open Source Platform.
-- [drone(stars: 30699)](https://github.com/drone/drone) - Drone is a Continuous Integration platform built on Docker, written in Go.
+- [CDS(stars: 4335)](https://github.com/ovh/cds) - Enterprise-Grade CI/CD and DevOps Automation Open Source Platform.
+- [drone(stars: 30704)](https://github.com/drone/drone) - Drone is a Continuous Integration platform built on Docker, written in Go.
 - [duci(stars: 74)](https://github.com/duck8823/duci) - A simple ci server no needs domain specific languages.
 - [go-fuzz-action(stars: 10)](https://github.com/jidicula/go-fuzz-action) - Use Go 1.18's built-in fuzz testing in GitHub Actions.
-- [go-test-coverage(stars: 30)](https://github.com/vladopajic/go-test-coverage) - Tool and GitHub action which reports issues when test coverage is below set threshold.
+- [go-test-coverage(stars: 31)](https://github.com/vladopajic/go-test-coverage) - Tool and GitHub action which reports issues when test coverage is below set threshold.
 - [gomason(stars: 59)](https://github.com/nikogura/gomason) - Test, Build, Sign, and Publish your go binaries from a clean workspace.
 - [gotestfmt(stars: 441)](https://github.com/GoTestTools/gotestfmt) - go test output for humans.
 - [goveralls(stars: 768)](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
@@ -519,7 +519,7 @@ _Libraries for preprocessing CSS files._
 - [bit(stars: 155)](https://github.com/yourbasic/bit) - Golang set data structure with bonus bit-twiddling functions.
 - [crunch(stars: 90)](https://github.com/superwhiskers/crunch) - Go package implementing buffers for handling various datatypes easily.
 - [go-ef(stars: 31)](https://github.com/amallia/go-ef) - A Go implementation of the Elias-Fano encoding.
-- [roaring(stars: 2198)](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
+- [roaring(stars: 2199)](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
 
 ### Bit Sets
 
@@ -528,11 +528,11 @@ _Libraries for preprocessing CSS files._
 
 ### Bloom and Cuckoo Filters
 
-- [bloom(stars: 2150)](https://github.com/bits-and-blooms/bloom) - Go package implementing Bloom filters.
+- [bloom(stars: 2151)](https://github.com/bits-and-blooms/bloom) - Go package implementing Bloom filters.
 - [bloom(stars: 147)](https://github.com/zhenjl/bloom) - Bloom filters implemented in Go.
 - [bloom(stars: 83)](https://github.com/yourbasic/bloom) - Golang Bloom filter implementation.
 - [bloomfilter(stars: 16)](https://github.com/OldPanda/bloomfilter) - Yet another Bloomfilter implementation in Go, compatible with Java's Guava library.
-- [boomfilters(stars: 1558)](https://github.com/tylertreat/BoomFilters) - Probabilistic data structures for processing continuous, unbounded streams.
+- [boomfilters(stars: 1559)](https://github.com/tylertreat/BoomFilters) - Probabilistic data structures for processing continuous, unbounded streams.
 - [cuckoo-filter(stars: 273)](https://github.com/linvon/cuckoo-filter) - Cuckoo filter: a comprehensive cuckoo filter, which is configurable and space optimized compared with other implements, and all features mentioned in original paper is available.
 - [cuckoofilter(stars: 1032)](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
 - [ring(stars: 133)](https://github.com/TheTannerRyan/ring) - Go implementation of a high performance, thread safe bloom filter.
@@ -540,9 +540,9 @@ _Libraries for preprocessing CSS files._
 ### Data Structure and Algorithm Collections
 
 - [algorithms(stars: 747)](https://github.com/shady831213/algorithms) - Algorithms and data structures.CLRS study.
-- [go-datastructures(stars: 7203)](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
-- [gods(stars: 14628)](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
-- [gostl(stars: 948)](https://github.com/liyue201/gostl) - Data structure and algorithm library for go, designed to provide functions similar to C++ STL.
+- [go-datastructures(stars: 7206)](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
+- [gods(stars: 14633)](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
+- [gostl(stars: 949)](https://github.com/liyue201/gostl) - Data structure and algorithm library for go, designed to provide functions similar to C++ STL.
 
 ### Iterators
 
@@ -576,7 +576,7 @@ additional ordered map implementations.
 - [gota(stars: 2793)](https://github.com/kniren/gota) - Implementation of dataframes, series, and data wrangling methods for Go.
 - [hide(stars: 58)](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
 - [hilbert(stars: 273)](https://github.com/google/hilbert) - Go package for mapping values to and from space-filling curves, such as Hilbert and Peano curves.
-- [hyperloglog(stars: 880)](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
+- [hyperloglog(stars: 881)](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
 - [plinko(stars: 157)](https://github.com/shipt/plinko) - A finite state machine and workflow orchestrator that compiles for fast execution, easy debugging, auto-generated documentation. Includes advanced features such as side-effect hooks. 
 - [quadtree(stars: 29)](https://github.com/s0rg/quadtree) - Generic, zero-alloc, 100%-test covered quadtree.
 - [slices(stars: 16)](https://github.com/srfrog/slices) - Functions that operate on slices; like `package strings` but adapted to work with slices.
@@ -593,21 +593,21 @@ additional ordered map implementations.
 - [deque(stars: 154)](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
 - [deque(stars: 506)](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
 - [goconcurrentqueue(stars: 330)](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
-- [memlog(stars: 107)](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
+- [memlog(stars: 108)](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
 - [queue(stars: 215)](https://github.com/adrianbrad/queue) - Multiple thread-safe, generic queue implementations for Go.
 
 ### Sets
 
 - [dsu(stars: 13)](https://github.com/ihebu/dsu) - Disjoint Set data structure implementation in Go.
-- [golang-set(stars: 3589)](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
+- [golang-set(stars: 3591)](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 - [goset(stars: 53)](https://github.com/zoumo/goset) - A useful Set collection implementation for Go.
 - [set(stars: 26)](https://github.com/StudioSol/set) - Simple set data structure implementation in Go using LinkedHashMap.
 
 ### Text Analysis
 
-- [bleve(stars: 9343)](https://github.com/blevesearch/bleve) - Modern text indexing library for go.
+- [bleve(stars: 9344)](https://github.com/blevesearch/bleve) - Modern text indexing library for go.
 - [go-adaptive-radix-tree(stars: 316)](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
-- [go-edlib(stars: 421)](https://github.com/hbollon/go-edlib) - Go string comparison and edit distance algorithms library (Levenshtein, LCS, Hamming, Damerau levenshtein, Jaro-Winkler, etc.) compatible with Unicode.
+- [go-edlib(stars: 425)](https://github.com/hbollon/go-edlib) - Go string comparison and edit distance algorithms library (Levenshtein, LCS, Hamming, Damerau levenshtein, Jaro-Winkler, etc.) compatible with Unicode.
 - [levenshtein(stars: 81)](https://github.com/agext/levenshtein) - Levenshtein distance and similarity metrics with customizable edit costs and Winkler-like bonus for common prefix.
 - [levenshtein(stars: 311)](https://github.com/agnivade/levenshtein) - Implementation to calculate levenshtein distance in Go.
 - [mspm(stars: 24)](https://github.com/BlackRabbitt/mspm) - Multi-String Pattern Matching Algorithm for information retrieval.
@@ -640,120 +640,120 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 
 - [2q(stars: 32)](https://github.com/floatdrop/2q) - 2Q in-memory cache implementation.
 - [bcache(stars: 139)](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory cache Go library.
-- [BigCache(stars: 6899)](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
+- [BigCache(stars: 6901)](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
 - [cache(stars: 159)](https://github.com/akyoto/cache) - In-memory key:value store with expiration time, 0 dependencies, <100 LoC, 100% coverage.
 - [cache2go(stars: 2014)](https://github.com/muesli/cache2go) - In-memory key:value cache which supports automatic invalidation based on timeouts.
-- [cachego(stars: 321)](https://github.com/faabiosr/cachego) - Golang Cache component for multiple drivers.
+- [cachego(stars: 322)](https://github.com/faabiosr/cachego) - Golang Cache component for multiple drivers.
 - [clusteredBigCache(stars: 44)](https://github.com/oaStuff/clusteredBigCache) - BigCache with clustering support and individual item expiration.
 - [coherence-go-client(stars: 7)](https://github.com/oracle/coherence-go-client) - Full implementation of Oracle Coherence cache API for Go applications using gRPC as network transport.
 - [couchcache(stars: 60)](https://github.com/codingsince1985/couchcache) - RESTful caching micro-service backed by Couchbase server.
-- [fastcache(stars: 1893)](https://github.com/VictoriaMetrics/fastcache) - fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead.
+- [fastcache(stars: 1895)](https://github.com/VictoriaMetrics/fastcache) - fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead.
 - [GCache(stars: 2462)](https://github.com/bluele/gcache) - Cache library with support for expirable Cache, LFU, LRU and ARC.
 - [gdcache(stars: 11)](https://github.com/ulovecode/gdcache) - A pure non-intrusive cache library implemented by golang, you can use it to implement your own distributed cache.
 - [go-cache(stars: 117)](https://github.com/viney-shih/go-cache) - A flexible multi-layer Go caching library to deal with in-memory and shared cache by adopting Cache-Aside pattern.
 - [go-mcache(stars: 89)](https://github.com/OrlovEvgeny/go-mcache) - Fast in-memory key:value store/cache library. Pointer caches.
-- [gocache(stars: 2035)](https://github.com/eko/gocache) - A complete Go cache library with multiple stores (memory, memcache, redis, ...), chainable, loadable, metrics cache and more.
+- [gocache(stars: 2039)](https://github.com/eko/gocache) - A complete Go cache library with multiple stores (memory, memcache, redis, ...), chainable, loadable, metrics cache and more.
 - [gocache(stars: 4)](https://github.com/yuseferi/gocache) - A data race free Go ache library with high performance and auto pruge functionality
-- [groupcache(stars: 12488)](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
+- [groupcache(stars: 12496)](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
 - [imcache(stars: 95)](https://github.com/erni27/imcache) - A generic in-memory cache Go library. It supports expiration, sliding expiration, max entries limit, eviction callbacks and sharding.
 - [nscache(stars: 5)](https://github.com/no-src/nscache) - A Go caching framework that supports multiple data source drivers.
 - [remember-go(stars: 135)](https://github.com/rocketlaunchr/remember-go) - A universal interface for caching slow database queries (backed by redis, memcached, ristretto, or in-memory).
-- [theine(stars: 162)](https://github.com/Yiling-J/theine-go) - High performance, near optimal in-memory cache with proactive TTL expiration and generics.
+- [theine(stars: 165)](https://github.com/Yiling-J/theine-go) - High performance, near optimal in-memory cache with proactive TTL expiration and generics.
 - [timedmap(stars: 66)](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
 - [ttlcache(stars: 767)](https://github.com/jellydator/ttlcache) - An in-memory cache with item expiration and generics.
 - [ttlcache(stars: 9)](https://github.com/cheshir/ttlcache) - In-memory key value storage with TTL for each record.
 
 ### Databases Implemented in Go
 
-- [badger(stars: 12933)](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
-- [bbolt(stars: 7091)](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
+- [badger(stars: 12936)](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
+- [bbolt(stars: 7092)](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
 - [Bitcask](https://git.mills.io/prologic/bitcask) - Bitcask is an embeddable, persistent and fast key-value (KV) database written in pure Go with predictable read/write performance, low latency and high throughput thanks to the bitcask on-disk layout (LSM+WAL).
 - [buntdb(stars: 4254)](https://github.com/tidwall/buntdb) - Fast, embeddable, in-memory key/value database for Go with custom indexing and spatial support.
-- [clover(stars: 497)](https://github.com/ostafen/clover) - A lightweight document-oriented NoSQL database written in pure Golang.
-- [cockroach(stars: 28161)](https://github.com/cockroachdb/cockroach) - Scalable, Geo-Replicated, Transactional Datastore.
+- [clover(stars: 498)](https://github.com/ostafen/clover) - A lightweight document-oriented NoSQL database written in pure Golang.
+- [cockroach(stars: 28165)](https://github.com/cockroachdb/cockroach) - Scalable, Geo-Replicated, Transactional Datastore.
 - [Coffer(stars: 34)](https://github.com/claygod/coffer) - Simple ACID key-value database that supports transactions.
 - [column(stars: 1316)](https://github.com/kelindar/column) - High-performance, columnar, embeddable in-memory store with bitmap indexing and transactions.
 - [CovenantSQL(stars: 1461)](https://github.com/CovenantSQL/CovenantSQL) - CovenantSQL is a SQL database on blockchain.
 - [Databunker(stars: 1143)](https://github.com/paranoidguy/databunker) - Personally identifiable information (PII) storage service built to comply with GDPR and CCPA.
-- [dgraph(stars: 19757)](https://github.com/dgraph-io/dgraph) - Scalable, Distributed, Low Latency, High Throughput Graph Database.
+- [dgraph(stars: 19759)](https://github.com/dgraph-io/dgraph) - Scalable, Distributed, Low Latency, High Throughput Graph Database.
 - [diskv(stars: 1308)](https://github.com/peterbourgon/diskv) - Home-grown disk-backed key-value store.
-- [dolt(stars: 15961)](https://github.com/dolthub/dolt) - Dolt – It's Git for Data.
+- [dolt(stars: 15965)](https://github.com/dolthub/dolt) - Dolt – It's Git for Data.
 - [dtf(stars: 216)](https://github.com/dtm-labs/dtf) - A distributed transaction manager. Support XA, TCC, SAGA, Reliable Messages.
-- [eliasdb(stars: 981)](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
+- [eliasdb(stars: 982)](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
 - [godis(stars: 3083)](https://github.com/hdt3213/godis) - A Golang implemented high-performance Redis server and cluster.
-- [goleveldb(stars: 5884)](https://github.com/syndtr/goleveldb) - Implementation of the [LevelDB](https://github.com/google/leveldb) key/value database in Go.
+- [goleveldb(stars: 5885)](https://github.com/syndtr/goleveldb) - Implementation of the [LevelDB](https://github.com/google/leveldb) key/value database in Go.
 - [hare(stars: 84)](https://github.com/jameycribbs/hare) - A simple database management system that stores each table as a text file of line-delimited JSON.
-- [immudb(stars: 8388)](https://github.com/codenotary/immudb) - immudb is a lightweight, high-speed immutable database for systems and applications written in Go.
-- [influxdb(stars: 26747)](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
+- [immudb(stars: 8389)](https://github.com/codenotary/immudb) - immudb is a lightweight, high-speed immutable database for systems and applications written in Go.
+- [influxdb(stars: 26759)](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
 - [ledisdb(stars: 4020)](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
 - [levigo(stars: 417)](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
 - [libradb(stars: 126)](https://github.com/amit-davidson/LibraDB) - LibraDB is a simple database with less then 1000 lines of code for learning.
 - [LinDB(stars: 2747)](https://github.com/lindb/lindb) - LinDB is a scalable, high performance, high availability distributed time series database.
-- [lotusdb(stars: 1822)](https://github.com/flower-corp/lotusdb) - Fast k/v database compatible with lsm and b+tree.
-- [Milvus(stars: 24251)](https://github.com/milvus-io/milvus) - Milvus is a vector database for embedding management, analytics and search.
+- [lotusdb(stars: 1825)](https://github.com/flower-corp/lotusdb) - Fast k/v database compatible with lsm and b+tree.
+- [Milvus(stars: 24267)](https://github.com/milvus-io/milvus) - Milvus is a vector database for embedding management, analytics and search.
 - [moss(stars: 936)](https://github.com/couchbase/moss) - Moss is a simple LSM key-value storage engine written in 100% Go.
-- [nutsdb(stars: 3073)](https://github.com/xujiajun/nutsdb) - Nutsdb is a simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as list, set, sorted set.
+- [nutsdb(stars: 3092)](https://github.com/xujiajun/nutsdb) - Nutsdb is a simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as list, set, sorted set.
 - [objectbox-go(stars: 925)](https://github.com/objectbox/objectbox-go) - High-performance embedded Object Database (NoSQL) with Go API.
 - [piladb(stars: 200)](https://github.com/fern4lvarez/piladb) - Lightweight RESTful database engine based on stack data structures.
-- [pogreb(stars: 1161)](https://github.com/akrylysov/pogreb) - Embedded key-value store for read-heavy workloads.
-- [prometheus(stars: 50764)](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
+- [pogreb(stars: 1163)](https://github.com/akrylysov/pogreb) - Embedded key-value store for read-heavy workloads.
+- [prometheus(stars: 50772)](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
 - [pudge(stars: 349)](https://github.com/recoilme/pudge) - Fast and simple key/value store written using Go's standard library.
 - [regatta(stars: 58)](https://github.com/jamf/regatta) - Fast, simple, geo-distributed KV store built for cloud native era.
-- [rosedb(stars: 4107)](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
-- [rqlite(stars: 14191)](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
+- [rosedb(stars: 4109)](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
+- [rqlite(stars: 14193)](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
 - [tempdb(stars: 17)](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
-- [tidb(stars: 35250)](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
+- [tidb(stars: 35257)](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 - [tiedot(stars: 2716)](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 - [unitdb(stars: 113)](https://github.com/unit-io/unitdb) - Fast timeseries database for IoT, realtime messaging applications. Access unitdb with pubsub over tcp or websocket using github.com/unit-io/unitd application.
 - [Vasto(stars: 250)](https://github.com/chrislusf/vasto) - A distributed high-performance key-value store. On Disk. Eventual consistent. HA. Able to grow or shrink without service interruption.
-- [VictoriaMetrics(stars: 9790)](https://github.com/VictoriaMetrics/VictoriaMetrics) - fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL.
+- [VictoriaMetrics(stars: 9797)](https://github.com/VictoriaMetrics/VictoriaMetrics) - fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL.
 
 ### Database Schema Migration
 
-- [atlas(stars: 4065)](https://github.com/ariga/atlas) - A Database Toolkit. A CLI designed to help companies better work with their data.
+- [atlas(stars: 4068)](https://github.com/ariga/atlas) - A Database Toolkit. A CLI designed to help companies better work with their data.
 - [avro(stars: 44)](https://github.com/khezen/avro) - Discover SQL schemas and convert them to AVRO schemas. Query SQL records into AVRO bytes.
-- [bytebase(stars: 7504)](https://github.com/bytebase/bytebase) - Safe database schema change and version control for DevOps teams.
+- [bytebase(stars: 7509)](https://github.com/bytebase/bytebase) - Safe database schema change and version control for DevOps teams.
 - [darwin(stars: 139)](https://github.com/GuiaBolso/darwin) - Database schema evolution library for Go.
-- [dbmate(stars: 3996)](https://github.com/amacneil/dbmate) - A lightweight, framework-agnostic database migration tool.
+- [dbmate(stars: 4000)](https://github.com/amacneil/dbmate) - A lightweight, framework-agnostic database migration tool.
 - [go-fixtures(stars: 28)](https://github.com/RichardKnop/go-fixtures) - Django style fixtures for Golang's excellent built-in database/sql library.
 - [go-pg-migrate(stars: 11)](https://github.com/lawzava/go-pg-migrate) - CLI-friendly package for go-pg migrations management.
 - [go-pg-migrations(stars: 83)](https://github.com/robinjoseph08/go-pg-migrations) - A Go package to help write migrations with go-pg/pg.
 - [goavro(stars: 924)](https://github.com/linkedin/goavro) - A Go package that encodes and decodes Avro data.
 - [godfish(stars: 5)](https://github.com/rafaelespinoza/godfish) - Database migration manager, works with native query language. Support for cassandra, mysql, postgres, sqlite3.
-- [goose(stars: 4746)](https://github.com/pressly/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
+- [goose(stars: 4749)](https://github.com/pressly/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 - [gorm-seeder(stars: 12)](https://github.com/Kachit/gorm-seeder) - Simple database seeder for Gorm ORM.
 - [gormigrate(stars: 943)](https://github.com/go-gormigrate/gormigrate) - Database schema migration helper for Gorm ORM.
 - [libschema(stars: 14)](https://github.com/muir/libschema) - Define your migrations separately in each library. Migrations for open source libraries. MySQL & PostgreSQL.
-- [migrate(stars: 12686)](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library.
+- [migrate(stars: 12790)](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library.
 - [migrator(stars: 157)](https://github.com/lopezator/migrator) - Dead simple Go database migration library.
 - [migrator(stars: 24)](https://github.com/larapulse/migrator) - MySQL database migrator designed to run migrations to your features and manage database schema update with intuitive go code.
 - [schema(stars: 30)](https://github.com/adlio/schema) - Library to embed schema migrations for database/sql-compatible databases inside your Go binaries.
 - [skeema(stars: 1186)](https://github.com/skeema/skeema) - Pure-SQL schema management system for MySQL, with support for sharding and external online schema change tools.
 - [soda](https://github.com/gobuffalo/pop/tree/master/soda) - Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.
-- [sql-migrate(stars: 2982)](https://github.com/rubenv/sql-migrate) - Database migration tool. Allows embedding migrations into the application using go-bindata.
+- [sql-migrate(stars: 2983)](https://github.com/rubenv/sql-migrate) - Database migration tool. Allows embedding migrations into the application using go-bindata.
 - [sqlize(stars: 72)](https://github.com/sunary/sqlize) - Database migration generator. Allows generate sql migration from model and existing sql by differ them.
 
 ### Database Tools
 
 - [chproxy(stars: 1156)](https://github.com/Vertamedia/chproxy) - HTTP proxy for ClickHouse database.
-- [clickhouse-bulk(stars: 442)](https://github.com/nikepan/clickhouse-bulk) - Collects small inserts and sends big requests to ClickHouse servers.
+- [clickhouse-bulk(stars: 443)](https://github.com/nikepan/clickhouse-bulk) - Collects small inserts and sends big requests to ClickHouse servers.
 - [dbbench(stars: 89)](https://github.com/sj14/dbbench) - Database benchmarking tool with support for several databases and scripts.
 - [dg(stars: 17)](https://github.com/codingconcepts/dg) - A fast data generator that produces CSV files from generated relational data.
 - [dynago(stars: 10)](https://github.com/twharmon/dynago) - Simplify working with AWS DynamoDB.
-- [go-mysql(stars: 4273)](https://github.com/siddontang/go-mysql) - Go toolset to handle MySQL protocol and replication.
+- [go-mysql(stars: 4276)](https://github.com/siddontang/go-mysql) - Go toolset to handle MySQL protocol and replication.
 - [go-mysql-elasticsearch(stars: 4023)](https://github.com/siddontang/go-mysql-elasticsearch) - Sync your MySQL data into Elasticsearch automatically.
 - [hasql](https://golang.yandex/hasql) - Library for accessing multi-host SQL database installations.
-- [kingshard(stars: 6267)](https://github.com/flike/kingshard) - kingshard is a high performance proxy for MySQL powered by Golang.
+- [kingshard(stars: 6272)](https://github.com/flike/kingshard) - kingshard is a high performance proxy for MySQL powered by Golang.
 - [octillery(stars: 181)](https://github.com/knocknote/octillery) - Go package for sharding databases ( Supports every ORM or raw SQL ).
 - [onedump(stars: 29)](https://github.com/liweiyi88/onedump) - Database backup from different drivers to different destinations with one command and configuration.
-- [orchestrator(stars: 5222)](https://github.com/github/orchestrator) - MySQL replication topology manager & visualizer.
+- [orchestrator(stars: 5223)](https://github.com/github/orchestrator) - MySQL replication topology manager & visualizer.
 - [pg_timetable(stars: 959)](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling for PostgreSQL.
-- [pgweb(stars: 8117)](https://github.com/sosedoff/pgweb) - Web-based PostgreSQL database browser.
+- [pgweb(stars: 8120)](https://github.com/sosedoff/pgweb) - Web-based PostgreSQL database browser.
 - [prep(stars: 33)](https://github.com/hexdigest/prep) - Use prepared SQL statements without changing your code.
-- [pREST(stars: 3958)](https://github.com/prest/prest) - Simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new.
+- [pREST(stars: 3968)](https://github.com/prest/prest) - Simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new.
 - [rdb(stars: 297)](https://github.com/HDT3213/rdb) - Redis RDB file parser for secondary development and memory analysis.
 - [rwdb(stars: 18)](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
-- [vitess(stars: 17088)](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
+- [vitess(stars: 17091)](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
 ### SQL Query Builders
 
@@ -762,27 +762,27 @@ _Libraries for building and using SQL._
 - [bqb(stars: 112)](https://github.com/nullism/bqb) - Lightweight and easy to learn query builder.
 - [buildsqlx(stars: 131)](https://github.com/arthurkushman/buildsqlx) - Go database query builder library for PostgreSQL.
 - [builq(stars: 74)](https://github.com/cristalhq/builq) - Easily build SQL queries in Go.
-- [dbq(stars: 386)](https://github.com/rocketlaunchr/dbq) - Zero boilerplate database operations for Go.
-- [Dotsql(stars: 689)](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use them with ease.
+- [dbq(stars: 387)](https://github.com/rocketlaunchr/dbq) - Zero boilerplate database operations for Go.
+- [Dotsql(stars: 691)](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use them with ease.
 - [gendry(stars: 1538)](https://github.com/didi/gendry) - Non-invasive SQL builder and powerful data binder.
 - [godbal(stars: 59)](https://github.com/xujiajun/godbal) - Database Abstraction Layer (dbal) for go. Support SQL builder and get result easily.
-- [goqu(stars: 2064)](https://github.com/doug-martin/goqu) - Idiomatic SQL builder and query library.
+- [goqu(stars: 2066)](https://github.com/doug-martin/goqu) - Idiomatic SQL builder and query library.
 - [gosql(stars: 29)](https://github.com/twharmon/gosql) - SQL Query builder with better null values support.
 - [Hotcoal(stars: 11)](https://github.com/motrboat/hotcoal) - Secure your handcrafted SQL against injection.
 - [igor(stars: 114)](https://github.com/galeone/igor) - Abstraction layer for PostgreSQL that supports advanced functionality and uses gorm-like syntax.
-- [jet(stars: 1669)](https://github.com/go-jet/jet) - Framework for writing type-safe SQL queries in Go, with ability to easily convert database query result into desired arbitrary object structure.
+- [jet(stars: 1688)](https://github.com/go-jet/jet) - Framework for writing type-safe SQL queries in Go, with ability to easily convert database query result into desired arbitrary object structure.
 - [ormlite(stars: 12)](https://github.com/pupizoid/ormlite) - Lightweight package containing some ORM-like features and helpers for sqlite databases.
 - [ozzo-dbx(stars: 613)](https://github.com/go-ozzo/ozzo-dbx) - Powerful data retrieval methods as well as DB-agnostic query building capabilities.
 - [qry(stars: 29)](https://github.com/HnH/qry) - Tool that generates constants from files with raw SQL queries.
 - [sg(stars: 4)](https://github.com/go-the-way/sg) - A SQL Gen for generating standard SQLs(supports: CRUD) written in Go.
 - [sq(stars: 194)](https://github.com/bokwoon95/go-structured-query) - Type-safe SQL builder and struct mapper for Go.
-- [sqlc(stars: 9473)](https://github.com/kyleconroy/sqlc) - Generate type-safe code from SQL.
+- [sqlc(stars: 9478)](https://github.com/kyleconroy/sqlc) - Generate type-safe code from SQL.
 - [sqlf(stars: 134)](https://github.com/leporo/sqlf) - Fast SQL query builder.
 - [sqlingo(stars: 352)](https://github.com/lqs/sqlingo) - A lightweight DSL to build SQL in Go.
 - [sqrl(stars: 265)](https://github.com/elgris/sqrl) - SQL query builder, fork of Squirrel with improved performance.
 - [Squalus](https://gitlab.com/qosenergy/squalus) - Thin layer over the Go SQL package that makes it easier to perform queries.
-- [Squirrel(stars: 6202)](https://github.com/Masterminds/squirrel) - Go library that helps you build SQL queries.
-- [xo(stars: 3481)](https://github.com/knq/xo) - Generate idiomatic Go code for databases based on existing schema definitions or custom queries supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server.
+- [Squirrel(stars: 6209)](https://github.com/Masterminds/squirrel) - Go library that helps you build SQL queries.
+- [xo(stars: 3482)](https://github.com/knq/xo) - Generate idiomatic Go code for databases based on existing schema definitions or custom queries supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server.
 
 **[⬆ back to top](#contents)**
 
@@ -801,16 +801,16 @@ _Libraries for building and using SQL._
 - [bgc(stars: 20)](https://github.com/viant/bgc) - Datastore Connectivity for BigQuery for go.
 - [firebirdsql(stars: 207)](https://github.com/nakagami/firebirdsql) - Firebird RDBMS SQL driver for Go.
 - [go-adodb(stars: 132)](https://github.com/mattn/go-adodb) - Microsoft ActiveX Object DataBase driver for go that uses database/sql.
-- [go-mssqldb(stars: 1772)](https://github.com/denisenkom/go-mssqldb) - Microsoft MSSQL driver for Go.
+- [go-mssqldb(stars: 1773)](https://github.com/denisenkom/go-mssqldb) - Microsoft MSSQL driver for Go.
 - [go-oci8(stars: 618)](https://github.com/mattn/go-oci8) - Oracle driver for go that uses database/sql.
-- [go-sql-driver/mysql(stars: 13846)](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
-- [go-sqlite3(stars: 7026)](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that uses database/sql.
+- [go-sql-driver/mysql(stars: 13852)](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
+- [go-sqlite3(stars: 7028)](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that uses database/sql.
 - [godror(stars: 470)](https://github.com/godror/godror) - Oracle driver for Go, using the ODPI-C driver.
 - [gofreetds(stars: 109)](https://github.com/minus5/gofreetds) - Microsoft MSSQL driver. Go wrapper over [FreeTDS](https://www.freetds.org).
 - [KSQL(stars: 252)](https://github.com/VinGarcia/ksql) - A Simple and Powerful Golang SQL Library
-- [pgx(stars: 8566)](https://github.com/jackc/pgx) - PostgreSQL driver supporting features beyond those exposed by database/sql.
+- [pgx(stars: 8573)](https://github.com/jackc/pgx) - PostgreSQL driver supporting features beyond those exposed by database/sql.
 - [pig(stars: 15)](https://github.com/alexeyco/pig) - Simple [pgx](https://github.com/jackc/pgx) wrapper to execute and [scan](https://github.com/georgysavva/scany) query results easily.
-- [pq(stars: 8449)](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
+- [pq(stars: 8450)](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
 - [Sqinn-Go(stars: 339)](https://github.com/cvilsmeier/sqinn-go) - SQLite with pure Go.
 - [sqlhooks(stars: 622)](https://github.com/qustavo/sqlhooks) - Attach hooks to any database/sql driver.
 - [surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB Driver for Go.
@@ -826,7 +826,7 @@ _Libraries for building and using SQL._
 - [go-pilosa(stars: 58)](https://github.com/pilosa/go-pilosa) - Go client library for Pilosa.
 - [go-rejson(stars: 331)](https://github.com/nitishm/go-rejson) - Golang client for redislabs' ReJSON module using Redigo golang client. Store and manipulate structs as JSON objects in redis with ease.
 - [gocb(stars: 350)](https://github.com/couchbase/gocb) - Official Couchbase Go SDK.
-- [gocosmos(stars: 18)](https://github.com/btnguyen2k/gocosmos) - REST client and standard `database/sql` driver for Azure Cosmos DB.
+- [gocosmos(stars: 19)](https://github.com/btnguyen2k/gocosmos) - REST client and standard `database/sql` driver for Azure Cosmos DB.
 - [gocql](https://gocql.github.io) - Go language driver for Apache Cassandra.
 - [godis(stars: 109)](https://github.com/piaohao/godis) - redis client implement by golang, inspired by jedis.
 - [godscache(stars: 11)](https://github.com/defcronyke/godscache) - A wrapper for the Google Cloud Platform Go Datastore package that adds caching using memcached.
@@ -834,16 +834,16 @@ _Libraries for building and using SQL._
 - [gorethink(stars: 1643)](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB.
 - [goriak(stars: 30)](https://github.com/zegl/goriak) - Go language driver for Riak KV.
 - [Kivik(stars: 282)](https://github.com/go-kivik/kivik) - Kivik provides a common Go and GopherJS client library for CouchDB, PouchDB, and similar databases.
-- [mgm(stars: 699)](https://github.com/kamva/mgm) - MongoDB model-based ODM for Go (based on official MongoDB driver).
-- [mgo(stars: 1957)](https://github.com/globalsign/mgo) - (unmaintained) MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
-- [mongo-go-driver(stars: 7724)](https://github.com/mongodb/mongo-go-driver) - Official MongoDB driver for the Go language.
+- [mgm(stars: 700)](https://github.com/kamva/mgm) - MongoDB model-based ODM for Go (based on official MongoDB driver).
+- [mgo(stars: 1958)](https://github.com/globalsign/mgo) - (unmaintained) MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
+- [mongo-go-driver(stars: 7725)](https://github.com/mongodb/mongo-go-driver) - Official MongoDB driver for the Go language.
 - [neo4j(stars: 27)](https://github.com/cihangir/neo4j) - Neo4j Rest API Bindings for Golang.
 - [Neo4j-GO(stars: 76)](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
 - [neoism(stars: 389)](https://github.com/jmcvetta/neoism) - Neo4j client for Golang.
 - [qmgo(stars: 1221)](https://github.com/qiniu/qmgo) - The MongoDB driver for Go. It‘s based on official MongoDB driver but easier to use like Mgo.
 - [redeo(stars: 429)](https://github.com/bsm/redeo) - Redis-protocol compatible TCP servers/services.
-- [redigo(stars: 9636)](https://github.com/gomodule/redigo) - Redigo is a Go client for the Redis database.
-- [redis(stars: 18375)](https://github.com/redis/go-redis) - Redis client for Golang.
+- [redigo(stars: 9638)](https://github.com/gomodule/redigo) - Redigo is a Go client for the Redis database.
+- [redis(stars: 18383)](https://github.com/redis/go-redis) - Redis client for Golang.
 - [rueidis](http://github.com/rueian/rueidis) - Fast Redis RESP3 client with auto pipelining and server-assisted client side caching.
 - [xredis(stars: 19)](https://github.com/shomali11/xredis) - Typesafe, customizable, clean & easy to use Redis client.
 
@@ -851,9 +851,9 @@ _Libraries for building and using SQL._
 
 - [clickhouse-go](https://github.com/ClickHouse/clickhouse-go/) - ClickHouse SQL client for Go with a `database/sql` compatibility.
 - [elastic(stars: 7253)](https://github.com/olivere/elastic) - Elasticsearch client for Go.
-- [elasticsql(stars: 1115)](https://github.com/cch123/elasticsql) - Convert sql to elasticsearch dsl in Go.
+- [elasticsql(stars: 1116)](https://github.com/cch123/elasticsql) - Convert sql to elasticsearch dsl in Go.
 - [elastigo(stars: 949)](https://github.com/mattbaird/elastigo) - Elasticsearch client library.
-- [go-elasticsearch(stars: 5261)](https://github.com/elastic/go-elasticsearch) - Official Elasticsearch client for Go.
+- [go-elasticsearch(stars: 5262)](https://github.com/elastic/go-elasticsearch) - Official Elasticsearch client for Go.
 - [goes(stars: 30)](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
 - [skizze(stars: 88)](https://github.com/seiflotfy/skizze) - probabilistic data-structures service and storage.
 
@@ -864,11 +864,11 @@ _Libraries for building and using SQL._
 _Libraries for working with dates and times._
 
 - [approx(stars: 5)](https://github.com/goschtalt/approx) - A Duration extension supporting parsing/printing durations in days, weeks and years.
-- [carbon(stars: 3943)](https://github.com/golang-module/carbon) - A simple, semantic and developer-friendly golang package for datetime.
+- [carbon(stars: 3951)](https://github.com/golang-module/carbon) - A simple, semantic and developer-friendly golang package for datetime.
 - [carbon(stars: 767)](https://github.com/uniplaces/carbon) - Simple Time extension with a lot of util methods, ported from PHP Carbon library.
 - [cronrange(stars: 18)](https://github.com/1set/cronrange) - Parses Cron-style time range expressions, checks if the given time is within any ranges.
 - [date(stars: 117)](https://github.com/rickb777/date) - Augments Time for working with dates, date ranges, time spans, periods, and time-of-day.
-- [dateparse(stars: 1933)](https://github.com/araddon/dateparse) - Parse date's without knowing format in advance.
+- [dateparse(stars: 1934)](https://github.com/araddon/dateparse) - Parse date's without knowing format in advance.
 - [durafmt(stars: 470)](https://github.com/hako/durafmt) - Time duration formatting library for Go.
 - [feiertage(stars: 45)](https://github.com/wlbr/feiertage) - Set of functions to calculate public holidays in Germany, incl. specialization on the states of Germany (Bundesländer). Things like Easter, Pentecost, Thanksgiving...
 - [go-anytime(stars: 12)](https://github.com/ijt/go-anytime) - Parse dates/times like "next dec 22nd at 3pm" and ranges like "from today until next thursday" without knowing the format in advance.
@@ -894,53 +894,53 @@ _Packages that help with building Distributed Systems._
 
 - [arpc(stars: 820)](https://github.com/lesismal/arpc) - More effective network communication, support two-way-calling, notify, broadcast.
 - [celeriac](https://github.com/svcavallar/celeriac.v1) - Library for adding support for interacting and monitoring Celery workers, tasks and events in Go.
-- [consistent(stars: 625)](https://github.com/buraksezer/consistent) - Consistent hashing with bounded loads.
+- [consistent(stars: 626)](https://github.com/buraksezer/consistent) - Consistent hashing with bounded loads.
 - [consistenthash(stars: 22)](https://github.com/mbrostami/consistenthash) - Consistent hashing with configurable replicas.
 - [dht(stars: 276)](https://github.com/anacrolix/dht) - BitTorrent Kademlia DHT implementation.
 - [digota(stars: 489)](https://github.com/digota/digota) - grpc ecommerce microservice.
 - [dot](https://github.com/dotchain/dot/) - distributed sync using operational transformation/OT.
 - [doublejump(stars: 94)](https://github.com/edwingeng/doublejump) - A revamped Google's jump consistent hash.
-- [dragonboat(stars: 4787)](https://github.com/lni/dragonboat) - A feature complete and high performance multi-group Raft library in Go.
-- [Dragonfly(stars: 1722)](https://github.com/dragonflyoss/Dragonfly2) - Provide efficient, stable and secure file distribution and image acceleration based on p2p technology to be the best practice and standard solution in cloud native architectures.
+- [dragonboat(stars: 4788)](https://github.com/lni/dragonboat) - A feature complete and high performance multi-group Raft library in Go.
+- [Dragonfly(stars: 1724)](https://github.com/dragonflyoss/Dragonfly2) - Provide efficient, stable and secure file distribution and image acceleration based on p2p technology to be the best practice and standard solution in cloud native architectures.
 - [drmaa(stars: 46)](https://github.com/dgruber/drmaa) - Job submission library for cluster schedulers based on the DRMAA standard.
 - [dynamolock](https://cirello.io/dynamolock) - DynamoDB-backed distributed locking implementation.
 - [dynatomic(stars: 16)](https://github.com/tylfin/dynatomic) - A library for using DynamoDB as an atomic counter.
-- [emitter-io(stars: 3663)](https://github.com/emitter-io/emitter) - High performance, distributed, secure and low latency publish-subscribe platform built with MQTT, Websockets and love.
+- [emitter-io(stars: 3666)](https://github.com/emitter-io/emitter) - High performance, distributed, secure and low latency publish-subscribe platform built with MQTT, Websockets and love.
 - [failured(stars: 11)](https://github.com/andy2046/failured) - adaptive accrual failure detector for distributed systems.
 - [flowgraph(stars: 54)](https://github.com/vectaport/flowgraph) - flow-based programming package.
-- [gleam(stars: 3269)](https://github.com/chrislusf/gleam) - Fast and scalable distributed map/reduce system written in pure Go and Luajit, combining Go's high concurrency with Luajit's high performance, runs standalone or distributed.
+- [gleam(stars: 3270)](https://github.com/chrislusf/gleam) - Fast and scalable distributed map/reduce system written in pure Go and Luajit, combining Go's high concurrency with Luajit's high performance, runs standalone or distributed.
 - [glow(stars: 3167)](https://github.com/chrislusf/glow) - Easy-to-Use scalable distributed big data processing, Map-Reduce, DAG execution, all in pure Go.
 - [gmsec(stars: 23)](https://github.com/gmsec/micro) - A Go distributed systems development framework.
 - [go-doudou(stars: 1221)](https://github.com/unionj-cloud/go-doudou) - A gossip protocol and OpenAPI 3.0 spec based decentralized microservice framework. Built-in go-doudou cli focusing on low-code and rapid dev can power up your productivity.
 - [go-health(stars: 724)](https://github.com/InVisionApp/go-health) - Library for enabling asynchronous dependency health checks in your service.
 - [go-jump(stars: 370)](https://github.com/dgryski/go-jump) - Port of Google's "Jump" Consistent Hash function.
-- [go-kit(stars: 25644)](https://github.com/go-kit/kit) - Microservice toolkit with support for service discovery, load balancing, pluggable transports, request tracking, etc.
-- [go-micro(stars: 20993)](https://github.com/micro/go-micro) - A distributed systems development framework.
+- [go-kit(stars: 25646)](https://github.com/go-kit/kit) - Microservice toolkit with support for service discovery, load balancing, pluggable transports, request tracking, etc.
+- [go-micro(stars: 20996)](https://github.com/micro/go-micro) - A distributed systems development framework.
 - [go-mysql-lock(stars: 58)](https://github.com/sanketplus/go-mysql-lock) - MySQL based distributed lock.
 - [go-pdu(stars: 47)](https://github.com/pdupub/go-pdu) - A decentralized identity-based social network.
 - [go-sundheit(stars: 513)](https://github.com/AppsFlyer/go-sundheit) - A library built to provide support for defining async service health checks for golang services.
-- [go-zero(stars: 26427)](https://github.com/tal-tech/go-zero) - A web and rpc framework. It's born to ensure the stability of the busy sites with resilient design. Builtin goctl greatly improves the development productivity.
+- [go-zero(stars: 26434)](https://github.com/tal-tech/go-zero) - A web and rpc framework. It's born to ensure the stability of the busy sites with resilient design. Builtin goctl greatly improves the development productivity.
 - [gorpc(stars: 685)](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
-- [grpc-go(stars: 19149)](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
+- [grpc-go(stars: 19154)](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
 - [hprose(stars: 1246)](https://github.com/hprose/hprose-golang) - Very newbility RPC Library, support 25+ languages now.
 - [jsonrpc(stars: 184)](https://github.com/osamingo/jsonrpc) - The jsonrpc package helps implement of JSON-RPC 2.0.
 - [jsonrpc(stars: 288)](https://github.com/ybbus/jsonrpc) - JSON-RPC 2.0 HTTP client implementation.
-- [Kitex(stars: 6384)](https://github.com/cloudwego/kitex) - A high-performance and strong-extensibility Golang RPC framework that helps developers build microservices. If the performance and extensibility are the main concerns when you develop microservices, Kitex can be a good choice.
-- [Kratos(stars: 21724)](https://github.com/go-kratos/kratos) - A modular-designed and easy-to-use microservices framework in Go.
-- [liftbridge(stars: 2499)](https://github.com/liftbridge-io/liftbridge) - Lightweight, fault-tolerant message streams for NATS.
-- [lura(stars: 5816)](https://github.com/luraproject/lura) - Ultra performant API Gateway framework with middlewares.
+- [Kitex(stars: 6389)](https://github.com/cloudwego/kitex) - A high-performance and strong-extensibility Golang RPC framework that helps developers build microservices. If the performance and extensibility are the main concerns when you develop microservices, Kitex can be a good choice.
+- [Kratos(stars: 21729)](https://github.com/go-kratos/kratos) - A modular-designed and easy-to-use microservices framework in Go.
+- [liftbridge(stars: 2500)](https://github.com/liftbridge-io/liftbridge) - Lightweight, fault-tolerant message streams for NATS.
+- [lura(stars: 5818)](https://github.com/luraproject/lura) - Ultra performant API Gateway framework with middlewares.
 - [micro(stars: 11918)](https://github.com/micro/micro) - A distributed systems runtime for the cloud and beyond.
-- [NATS(stars: 13875)](https://github.com/nats-io/gnatsd) - Lightweight, high performance messaging system for microservices, IoT, and cloud native systems.
+- [NATS(stars: 13885)](https://github.com/nats-io/gnatsd) - Lightweight, high performance messaging system for microservices, IoT, and cloud native systems.
 - [outboxer(stars: 147)](https://github.com/italolelis/outboxer) - Outboxer is a go library that implements the outbox pattern.
 - [pglock](https://cirello.io/pglock) - PostgreSQL-backed distributed locking implementation.
 - [pjrpc](https://gitlab.com/pjrpc/pjrpc) - Golang JSON-RPC Server-Client with Protobuf spec.
-- [raft(stars: 7515)](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
-- [raft(stars: 392)](https://github.com/etcd-io/raft) - Go implementation of the Raft consensus protocol, by CoreOS.
+- [raft(stars: 7520)](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
+- [raft(stars: 393)](https://github.com/etcd-io/raft) - Go implementation of the Raft consensus protocol, by CoreOS.
 - [rain(stars: 884)](https://github.com/cenkalti/rain) - BitTorrent client and library.
-- [redis-lock(stars: 1166)](https://github.com/bsm/redislock) - Simplified distributed locking implementation using Redis.
+- [redis-lock(stars: 1168)](https://github.com/bsm/redislock) - Simplified distributed locking implementation using Redis.
 - [resgate](https://resgate.io/) - Realtime API Gateway for building REST, real time, and RPC APIs, where all clients are synchronized seamlessly.
 - [ringpop-go(stars: 804)](https://github.com/uber/ringpop-go) - Scalable, fault-tolerant application-layer sharding for Go applications.
-- [rpcx(stars: 7789)](https://github.com/smallnest/rpcx) - Distributed pluggable RPC service framework like alibaba Dubbo.
+- [rpcx(stars: 7790)](https://github.com/smallnest/rpcx) - Distributed pluggable RPC service framework like alibaba Dubbo.
 - [Semaphore(stars: 88)](https://github.com/jexia/semaphore) - A straightforward (micro) service orchestrator.
 - [sleuth(stars: 366)](https://github.com/ursiform/sleuth) - Library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
 - [Temporal(stars: 397)](https://github.com/temporalio/sdk-go) - Durable execution system for making code fault-tolerant and simple.
@@ -954,7 +954,7 @@ _Tools for updating dynamic DNS records._
 
 - [DDNS(stars: 238)](https://github.com/skibish/ddns) - Personal DDNS client with Digital Ocean Networking DNS as backend.
 - [dyndns](https://gitlab.com/alcastle/dyndns) - Background Go process to regularly and automatically check your IP Address and make updates to (one or many) Dynamic DNS records for Google domains whenever your address changes.
-- [GoDNS(stars: 1371)](https://github.com/timothyye/godns) - A dynamic DNS client tool, supports DNSPod & HE.net, written in Go.
+- [GoDNS(stars: 1373)](https://github.com/timothyye/godns) - A dynamic DNS client tool, supports DNSPod & HE.net, written in Go.
 
 **[⬆ back to top](#contents)**
 
@@ -978,8 +978,8 @@ _Libraries and tools that implement email creation and sending._
 - [hermes(stars: 2703)](https://github.com/matcornic/hermes) - Golang package that generates clean, responsive HTML e-mails.
 - [mailchain(stars: 141)](https://github.com/mailchain/mailchain) - Send encrypted emails to blockchain addresses written in Go.
 - [mailgun-go(stars: 664)](https://github.com/mailgun/mailgun-go) - Go library for sending mail with the Mailgun API.
-- [MailHog(stars: 12785)](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface.
-- [Mailpit(stars: 3491)](https://github.com/axllent/mailpit) - Email and SMTP testing tool for developers.
+- [MailHog(stars: 12789)](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface.
+- [Mailpit(stars: 3498)](https://github.com/axllent/mailpit) - Email and SMTP testing tool for developers.
 - [mailx(stars: 9)](https://github.com/valord577/mailx) - Mailx is a library that makes it easier to send email via SMTP. It is an enhancement of the golang standard library `net/smtp`.
 - [SendGrid(stars: 936)](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email.
 - [smtp(stars: 74)](https://github.com/mailhog/smtp) - SMTP server protocol state machine.
@@ -994,25 +994,25 @@ _Embedding other languages inside your go code._
 
 - [anko(stars: 1392)](https://github.com/mattn/anko) - Scriptable interpreter written in Go.
 - [binder(stars: 67)](https://github.com/alexeyco/binder) - Go to Lua binding library, based on [gopher-lua](https://github.com/yuin/gopher-lua).
-- [cel-go(stars: 1897)](https://github.com/google/cel-go) - Fast, portable, non-Turing complete expression evaluation with gradual typing.
+- [cel-go(stars: 1899)](https://github.com/google/cel-go) - Fast, portable, non-Turing complete expression evaluation with gradual typing.
 - [ecal(stars: 36)](https://github.com/krotik/ecal) - A simple embeddable scripting language which supports concurrent event processing.
-- [expr(stars: 4735)](https://github.com/antonmedv/expr) - Expression evaluation engine for Go: fast, non-Turing complete, dynamic typing, static typing.
+- [expr(stars: 4738)](https://github.com/antonmedv/expr) - Expression evaluation engine for Go: fast, non-Turing complete, dynamic typing, static typing.
 - [gentee(stars: 120)](https://github.com/gentee/gentee) - Embeddable scripting programming language.
 - [gisp(stars: 504)](https://github.com/jcla1/gisp) - Simple LISP in Go.
 - [go-duktape(stars: 778)](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go.
-- [go-lua(stars: 2819)](https://github.com/Shopify/go-lua) - Port of the Lua 5.2 VM to pure Go.
+- [go-lua(stars: 2821)](https://github.com/Shopify/go-lua) - Port of the Lua 5.2 VM to pure Go.
 - [go-php(stars: 907)](https://github.com/deuill/go-php) - PHP bindings for Go.
-- [go-python(stars: 1509)](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API.
-- [goja(stars: 4441)](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation in Go.
+- [go-python(stars: 1510)](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API.
+- [goja(stars: 4445)](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation in Go.
 - [golua(stars: 629)](https://github.com/aarzilli/golua) - Go bindings for Lua C API.
-- [gopher-lua(stars: 5739)](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler written in Go.
+- [gopher-lua(stars: 5744)](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler written in Go.
 - [gval(stars: 670)](https://github.com/PaesslerAG/gval) - A highly customizable expression language written in Go.
 - [metacall(stars: 1414)](https://github.com/metacall/core) - Cross-platform Polyglot Runtime which supports NodeJS, JavaScript, TypeScript, Python, Ruby, C#, WebAssembly, Java, Cobol and more.
 - [ngaro(stars: 25)](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro.
 - [prolog(stars: 516)](https://github.com/ichiban/prolog) - Embeddable Prolog.
 - [purl(stars: 39)](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
 - [starlark-go(stars: 2112)](https://github.com/google/starlark-go) - Go implementation of Starlark: Python-like language with deterministic evaluation and hermetic execution.
-- [tengo(stars: 3325)](https://github.com/d5/tengo) - Bytecode compiled script language for Go.
+- [tengo(stars: 3326)](https://github.com/d5/tengo) - Bytecode compiled script language for Go.
 
 **[⬆ back to top](#contents)**
 
@@ -1021,18 +1021,18 @@ _Embedding other languages inside your go code._
 _Libraries for handling errors._
 
 - [emperror(stars: 316)](https://github.com/emperror/emperror) - Error handling tools and best practices for Go libraries and applications.
-- [eris(stars: 1357)](https://github.com/rotisserie/eris) - A better way to handle, trace, and log errors in Go. Compatible with the standard error library and github.com/pkg/errors.
+- [eris(stars: 1358)](https://github.com/rotisserie/eris) - A better way to handle, trace, and log errors in Go. Compatible with the standard error library and github.com/pkg/errors.
 - [errlog(stars: 451)](https://github.com/snwfdhmp/errlog) - Hackable package that determines responsible source code for an error (and some other fast-debugging features). Pluggable to any logger in-place.
 - [errors(stars: 190)](https://github.com/emperror/errors) - Drop-in replacement for the standard library errors package and github.com/pkg/errors. Provides various error handling primitives.
 - [errors(stars: 6)](https://github.com/neuronlabs/errors) - Simple golang error handling with classification primitives.
 - [errors(stars: 7)](https://github.com/PumpkinSeed/errors) - The most simple error wrapper with awesome performance and minimal memory overhead.
 - [errors(stars: 59)](https://github.com/bnkamalesh/errors) - Drop-in replacement for builtin Go errors. This is a minimal error handling package with custom error types, user friendly messages, Unwrap & Is. With very easy to use and straightforward helper functions.
-- [errors(stars: 1861)](https://github.com/cockroachdb/errors) - Go error library with error portability over the network.
+- [errors(stars: 1863)](https://github.com/cockroachdb/errors) - Go error library with error portability over the network.
 - [errorx(stars: 1031)](https://github.com/joomcode/errorx) - A feature rich error package with stack traces, composition of errors and more.
 - [exception(stars: 26)](https://github.com/rbrahul/exception) - A simple utility package for exception handling with try-catch in Golang.
 - [Falcon(stars: 10)](https://github.com/SonicRoshan/falcon) - A Simple Yet Highly Powerful Package For Error Handling.
 - [Fault(stars: 139)](https://github.com/Southclaws/fault) - An ergonomic mechanism for wrapping errors in order to facilitate structured metadata and context for error values.
-- [go-multierror(stars: 2067)](https://github.com/hashicorp/go-multierror) - Go (golang) package for representing a list of errors as a single error.
+- [go-multierror(stars: 2068)](https://github.com/hashicorp/go-multierror) - Go (golang) package for representing a list of errors as a single error.
 - [oops(stars: 100)](https://github.com/samber/oops) - Error handling with context, stack trace and source fragments.
 - [tracerr(stars: 845)](https://github.com/ztrue/tracerr) - Golang errors with stack trace and source fragments.
 
@@ -1042,17 +1042,17 @@ _Libraries for handling errors._
 
 _Libraries for handling files and file systems._
 
-- [afero(stars: 5463)](https://github.com/spf13/afero) - FileSystem Abstraction System for Go.
+- [afero(stars: 5472)](https://github.com/spf13/afero) - FileSystem Abstraction System for Go.
 - [afs(stars: 271)](https://github.com/viant/afs) - Abstract File Storage (mem, scp, zip, tar, cloud: s3, gs) for Go.
 - [baraka(stars: 52)](https://github.com/xis/baraka) - A library to process http file uploads easily.
 - [bigfile(stars: 244)](https://github.com/bigfile/bigfile) - A file transfer system, support to manage files with http api, rpc call and ftp client.
 - [checksum(stars: 95)](https://github.com/codingsince1985/checksum) - Compute message digest, like MD5, SHA256, SHA1, CRC or BLAKE2s, for large files.
 - [copy(stars: 616)](https://github.com/otiai10/copy) - Copy directory recursively.
 - [flop(stars: 34)](https://github.com/homedepot/flop) - File operations library which aims to mirror feature parity with [GNU cp](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html).
-- [gdu(stars: 2894)](https://github.com/dundee/gdu) - Disk usage analyzer with console interface.
+- [gdu(stars: 2897)](https://github.com/dundee/gdu) - Disk usage analyzer with console interface.
 - [go-csv-tag(stars: 110)](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
 - [go-decent-copy(stars: 21)](https://github.com/hugocarreira/go-decent-copy) - Copy files for humans.
-- [go-exiftool(stars: 195)](https://github.com/barasher/go-exiftool) - Go bindings for ExifTool, the well-known library used to extract as much metadata as possible (EXIF, IPTC, ...) from files (pictures, PDF, office, ...).
+- [go-exiftool(stars: 197)](https://github.com/barasher/go-exiftool) - Go bindings for ExifTool, the well-known library used to extract as much metadata as possible (EXIF, IPTC, ...) from files (pictures, PDF, office, ...).
 - [go-gtfs(stars: 38)](https://github.com/artonge/go-gtfs) - Load gtfs files in go.
 - [gofs(stars: 370)](https://github.com/no-src/gofs) - A cross-platform real-time file synchronization tool out of the box.
 - [gut/yos(stars: 27)](https://github.com/1set/gut) - Simple and reliable package for file operations like copy/move/diff/list on files, directories and symbolic links.
@@ -1075,12 +1075,12 @@ _Libraries for handling files and file systems._
 
 _Packages for accounting and finance._
 
-- [accounting(stars: 841)](https://github.com/leekchan/accounting) - money and currency formatting for golang.
-- [ach(stars: 404)](https://github.com/moov-io/ach) - A reader, writer, and validator for Automated Clearing House (ACH) files.
+- [accounting(stars: 842)](https://github.com/leekchan/accounting) - money and currency formatting for golang.
+- [ach(stars: 406)](https://github.com/moov-io/ach) - A reader, writer, and validator for Automated Clearing House (ACH) files.
 - [bbgo(stars: 988)](https://github.com/c9s/bbgo) - A crypto trading bot framework written in Go. Including common crypto exchange API, standard indicators, back-testing and many built-in strategies.
 - [currency(stars: 454)](https://github.com/bojanz/currency) - Handles currency amounts, provides currency information and formatting.
 - [currency(stars: 56)](https://github.com/bnkamalesh/currency) - High performant & accurate currency computation package.
-- [decimal(stars: 5487)](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers.
+- [decimal(stars: 5491)](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers.
 - [decimal(stars: 14)](https://github.com/govalues/decimal) - Immutable decimal numbers with panic-free arithmetic.
 - [fpdecimal(stars: 25)](https://github.com/nikolaydubina/fpdecimal) - Fast and precise serialization and arithmetic for small fixed-point decimals
 - [fpmoney(stars: 22)](https://github.com/nikolaydubina/fpmoney) - Fast and simple ISO4217 fixed-point decimal money.
@@ -1095,7 +1095,7 @@ _Packages for accounting and finance._
 - [payme(stars: 26)](https://github.com/jovandeginste/payme) - QR code generator (ASCII & PNG) for SEPA payments.
 - [sleet(stars: 128)](https://github.com/BoltApp/sleet) - One unified interface for multiple Payment Service Providers (PsP) to process online payment.
 - [techan(stars: 757)](https://github.com/sdcoffey/techan) - Technical analysis library with advanced market analysis and trading strategies.
-- [ticker(stars: 4701)](https://github.com/achannarasappa/ticker) - Terminal stock watcher and stock position tracker.
+- [ticker(stars: 4703)](https://github.com/achannarasappa/ticker) - Terminal stock watcher and stock position tracker.
 - [transaction(stars: 126)](https://github.com/claygod/transaction) - Embedded transactional database of accounts, running in multithreaded mode.
 - [vat(stars: 106)](https://github.com/dannyvankooten/vat) - VAT number validation & EU VAT rates.
 
@@ -1109,13 +1109,13 @@ _Libraries for working with forms._
 - [binding(stars: 797)](https://github.com/mholt/binding) - Binds form and JSON data from net/http Request to struct.
 - [checker(stars: 5)](https://github.com/cinar/checker) - Checker helps validating user input through rules defined in struct tags or directly through functions.
 - [conform(stars: 312)](https://github.com/leebenson/conform) - Keeps user input in check. Trims, sanitizes & scrubs data based on struct tags.
-- [form(stars: 648)](https://github.com/go-playground/form) - Decodes url.Values into Go value(s) and Encodes Go value(s) into url.Values. Dual Array and Full map support.
+- [form(stars: 649)](https://github.com/go-playground/form) - Decodes url.Values into Go value(s) and Encodes Go value(s) into url.Values. Dual Array and Full map support.
 - [formam(stars: 182)](https://github.com/monoculum/formam) - decode form's values into a struct.
 - [forms(stars: 133)](https://github.com/albrow/forms) - Framework-agnostic library for parsing and validating form/JSON data which supports multipart forms and files.
 - [gbind(stars: 8)](https://github.com/bdjimmy/gbind) - Bind data to any Go value. Can use built-in and custom expression binding capabilities; supports data validation
 - [gorilla/csrf(stars: 946)](https://github.com/gorilla/csrf) - CSRF protection for Go web applications & services.
-- [httpin(stars: 216)](https://github.com/ggicci/httpin) - Decode an HTTP request into a custom struct, including querystring, forms, HTTP headers, etc.
-- [nosurf(stars: 1454)](https://github.com/justinas/nosurf) - CSRF protection middleware for Go.
+- [httpin(stars: 217)](https://github.com/ggicci/httpin) - Decode an HTTP request into a custom struct, including querystring, forms, HTTP headers, etc.
+- [nosurf(stars: 1455)](https://github.com/justinas/nosurf) - CSRF protection middleware for Go.
 - [qs(stars: 68)](https://github.com/sonh/qs) - Go module for encoding structs into URL query parameters.
 - [queryparam(stars: 19)](https://github.com/tomwright/queryparam) - Decode `url.Values` into usable struct values of standard or custom types.
 
@@ -1131,7 +1131,7 @@ _Packages to support functional programming in Go._
 - [go-functional(stars: 224)](https://github.com/BooleanCat/go-functional) - Functional programming in Go using generics
 - [go-underscore(stars: 1294)](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
 - [gofp(stars: 143)](https://github.com/rbrahul/gofp) - A lodash like powerful utility library for Golang.
-- [mo(stars: 1968)](https://github.com/samber/mo) - Monads and popular FP abstractions, based on Go 1.18+ Generics (Option, Result, Either...).
+- [mo(stars: 1974)](https://github.com/samber/mo) - Monads and popular FP abstractions, based on Go 1.18+ Generics (Option, Result, Either...).
 - [underscore(stars: 94)](https://github.com/rjNemo/underscore) - Functional programming helpers for Go 1.18 and beyond.
 - [valor(stars: 15)](https://github.com/phelmkamp/valor) - Generic option and result types that optionally contain a value.
 
@@ -1142,7 +1142,7 @@ _Packages to support functional programming in Go._
 _Awesome game development libraries._
 
 - [Azul3D(stars: 591)](https://github.com/azul3d/engine) - 3D game engine written in Go.
-- [Ebitengine(stars: 9099)](https://github.com/hajimehoshi/ebiten) - dead simple 2D game engine in Go.
+- [Ebitengine(stars: 9104)](https://github.com/hajimehoshi/ebiten) - dead simple 2D game engine in Go.
 - [engo(stars: 1659)](https://github.com/EngoEngine/engo) - Engo is an open-source 2D game engine written in Go. It follows the Entity-Component-System paradigm.
 - [fantasyname(stars: 24)](https://github.com/s0rg/fantasyname) - Fantasy names generator.
 - [g3n(stars: 2514)](https://github.com/g3n/engine) - Go 3D Game Engine.
@@ -1150,12 +1150,12 @@ _Awesome game development libraries._
 - [go-sdl2(stars: 2050)](https://github.com/veandco/go-sdl2) - Go bindings for the [Simple DirectMedia Layer](https://www.libsdl.org/).
 - [go3d(stars: 285)](https://github.com/ungerik/go3d) - Performance oriented 2D/3D math package for Go.
 - [gonet(stars: 1240)](https://github.com/xtaci/gonet) - Game server skeleton implemented with golang.
-- [goworld(stars: 2427)](https://github.com/xiaonanln/goworld) - Scalable game server engine, featuring space-entity framework and hot-swapping.
+- [goworld(stars: 2428)](https://github.com/xiaonanln/goworld) - Scalable game server engine, featuring space-entity framework and hot-swapping.
 - [Harfang3D(stars: 426)](https://github.com/harfang3d/harfang3d) - 3D engine for the Go language, works on Windows and Linux ([Harfang on Go.dev](https://github.com/harfang3d/harfang-go)).
-- [Leaf(stars: 5015)](https://github.com/name5566/leaf) - Lightweight game server framework.
-- [nano(stars: 2549)](https://github.com/lonng/nano) - Lightweight, facility, high performance golang based game server framework.
+- [Leaf(stars: 5016)](https://github.com/name5566/leaf) - Lightweight game server framework.
+- [nano(stars: 2551)](https://github.com/lonng/nano) - Lightweight, facility, high performance golang based game server framework.
 - [Oak(stars: 1461)](https://github.com/oakmound/oak) - Pure Go game engine.
-- [Pitaya(stars: 2019)](https://github.com/topfreegames/pitaya) - Scalable game server framework with clustering support and client libraries for iOS, Android, Unity and others through the C SDK.
+- [Pitaya(stars: 2020)](https://github.com/topfreegames/pitaya) - Scalable game server framework with clustering support and client libraries for iOS, Android, Unity and others through the C SDK.
 - [Pixel(stars: 4352)](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go.
 - [prototype(stars: 83)](https://github.com/gonutz/prototype) - Cross-platform (Windows/Linux/Mac) library for creating desktop games using a minimal API.
 - [raylib-go(stars: 1133)](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
@@ -1171,15 +1171,15 @@ _Tools that generate Go code._
 - [convergen(stars: 17)](https://github.com/reedom/convergen) - Feature rich type-to-type copy code generator.
 - [copygen(stars: 301)](https://github.com/switchupcb/copygen) - Generate type-to-type and type-based code without reflection.
 - [generis(stars: 43)](https://github.com/senselogic/GENERIS) - Code generation tool providing generics, free-form macros, conditional compilation and HTML templating.
-- [go-enum(stars: 575)](https://github.com/abice/go-enum) - Code generation for enums from code comments.
+- [go-enum(stars: 576)](https://github.com/abice/go-enum) - Code generation for enums from code comments.
 - [go-linq(stars: 3382)](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
 - [goderive(stars: 1131)](https://github.com/awalterschulze/goderive) - Derives functions from input types.
 - [gotype(stars: 57)](https://github.com/wzshiming/gotype) - Golang source code parsing, usage like reflect package.
-- [goverter(stars: 359)](https://github.com/jmattheis/goverter) - Generate converters by defining an interface.
+- [goverter(stars: 364)](https://github.com/jmattheis/goverter) - Generate converters by defining an interface.
 - [GoWrap(stars: 818)](https://github.com/hexdigest/gowrap) - Generate decorators for Go interfaces using simple templates.
 - [interfaces(stars: 403)](https://github.com/rjeczalik/interfaces) - Command line tool for generating interface definitions.
 - [jennifer(stars: 3078)](https://github.com/dave/jennifer) - Generate arbitrary Go code without templates.
-- [oapi-codegen(stars: 4524)](https://github.com/deepmap/oapi-codegen) - This package contains a set of utilities for generating Go boilerplate code for services based on OpenAPI 3.0 API definitions.
+- [oapi-codegen(stars: 4526)](https://github.com/deepmap/oapi-codegen) - This package contains a set of utilities for generating Go boilerplate code for services based on OpenAPI 3.0 API definitions.
 - [typeregistry(stars: 23)](https://github.com/xiaoxin01/typeregistry) - A library to create type dynamically.
 
 **[⬆ back to top](#contents)**
@@ -1210,7 +1210,7 @@ _Geographic tools and servers_
 
 _Tools for compiling Go to other languages._
 
-- [c2go(stars: 287)](https://github.com/goplus/c2go) - Convert C code to Go code.
+- [c2go(stars: 288)](https://github.com/goplus/c2go) - Convert C code to Go code.
 - [c4go(stars: 342)](https://github.com/Konstantin8105/c4go) - Transpile C code to Go code.
 - [esp32(stars: 78)](https://github.com/andygeiss/esp32-transpiler) - Transpile Go into Arduino code.
 - [f4go(stars: 40)](https://github.com/Konstantin8105/f4go) - Transpile FORTRAN 77 code to Go code.
@@ -1223,32 +1223,32 @@ _Tools for compiling Go to other languages._
 
 _Tools for managing and working with Goroutines._
 
-- [ants(stars: 11347)](https://github.com/panjf2000/ants) - A high-performance and low-cost goroutine pool in Go.
+- [ants(stars: 11349)](https://github.com/panjf2000/ants) - A high-performance and low-cost goroutine pool in Go.
 - [artifex(stars: 178)](https://github.com/borderstech/artifex) - Simple in-memory job queue for Golang using worker-based dispatching.
-- [async(stars: 157)](https://github.com/reugn/async) - An alternative sync library for Go (Future, Promise, Locks).
+- [async(stars: 158)](https://github.com/reugn/async) - An alternative sync library for Go (Future, Promise, Locks).
 - [async(stars: 128)](https://github.com/studiosol/async) - A safe way to execute functions asynchronously, recovering them in case of panic.
-- [async-job(stars: 7)](https://github.com/lab210-dev/async-job) - AsyncJob is an asynchronous queue job manager with light code, clear and speed.
+- [async-job(stars: 8)](https://github.com/lab210-dev/async-job) - AsyncJob is an asynchronous queue job manager with light code, clear and speed.
 - [breaker(stars: 16)](https://github.com/kamilsk/breaker) - Flexible mechanism to make execution flow interruptible.
 - [channelify(stars: 27)](https://github.com/ddelizia/channelify) - Transform your function to return channels for easy and powerful parallel processing.
-- [conc(stars: 7597)](https://github.com/sourcegraph/conc) - `conc` is your toolbelt for structured concurrency in go, making common tasks easier and safer.
+- [conc(stars: 7599)](https://github.com/sourcegraph/conc) - `conc` is your toolbelt for structured concurrency in go, making common tasks easier and safer.
 - [concurrency-limiter(stars: 17)](https://github.com/vivek-ng/concurrency-limiter) - Concurrency limiter with support for timeouts , dynamic priority and context cancellation of goroutines.
-- [conexec(stars: 13)](https://github.com/ITcathyh/conexec) - A concurrent toolkit to help execute funcs concurrently in an efficient and safe way. It supports specifying the overall timeout to avoid blocking and uses goroutine pool to improve efficiency.
+- [conexec(stars: 14)](https://github.com/ITcathyh/conexec) - A concurrent toolkit to help execute funcs concurrently in an efficient and safe way. It supports specifying the overall timeout to avoid blocking and uses goroutine pool to improve efficiency.
 - [cyclicbarrier(stars: 132)](https://github.com/marusama/cyclicbarrier) - CyclicBarrier for golang.
 - [execpool(stars: 16)](https://github.com/hexdigest/execpool) - A pool built around exec.Cmd that spins up a given number of processes in advance and attaches stdin and stdout to them when needed. Very similar to FastCGI or Apache Prefork MPM but works for any command.
 - [flowmatic(stars: 212)](https://github.com/carlmjohnson/flowmatic) - Structured concurrency made easy.
 - [go-actor(stars: 85)](https://github.com/vladopajic/go-actor) - A tiny library for writing concurrent programs using actor model.
 - [go-floc(stars: 263)](https://github.com/workanator/go-floc) - Orchestrate goroutines with ease.
-- [go-flow(stars: 217)](https://github.com/kamildrazkiewicz/go-flow) - Control goroutines execution order.
+- [go-flow(stars: 218)](https://github.com/kamildrazkiewicz/go-flow) - Control goroutines execution order.
 - [go-tools/multithreading(stars: 13)](https://github.com/nikhilsaraf/go-tools) - Manage a pool of goroutines using this lightweight library with a simple API.
 - [go-trylock(stars: 33)](https://github.com/subchen/go-trylock) - TryLock support on read-write lock for Golang.
 - [go-waitgroup(stars: 43)](https://github.com/pieterclaerhout/go-waitgroup) - Like `sync.WaitGroup` with error handling and concurrency control.
-- [go-workerpool](https://github.com/zenthangplus/go-workerpool) - Inspired from Java Thread Pool, Go WorkerPool aims to control heavy Go Routines.
+- [go-workerpool(stars: 10)](https://github.com/zenthangplus/go-workerpool) - Inspired from Java Thread Pool, Go WorkerPool aims to control heavy Go Routines.
 - [go-workers(stars: 160)](https://github.com/catmullet/go-workers) - Easily and safely run workers for large data processing pipelines.
 - [goccm(stars: 66)](https://github.com/zenthangplus/goccm) - Go Concurrency Manager package limits the number of goroutines that allowed to run concurrently.
 - [gohive(stars: 45)](https://github.com/loveleshsharma/gohive) - A highly performant and easy to use Goroutine pool for Go.
 - [gollback(stars: 112)](https://github.com/vardius/gollback) - asynchronous simple function utilities, for managing execution of closures and callbacks.
 - [gowl(stars: 59)](https://github.com/hamed-yousefi/gowl) - Gowl is a process management and process monitoring tool at once. An infinite worker pool gives you the ability to control the pool and processes and monitor their status.
-- [goworker(stars: 2758)](https://github.com/benmanns/goworker) - goworker is a Go-based background worker.
+- [goworker(stars: 2759)](https://github.com/benmanns/goworker) - goworker is a Go-based background worker.
 - [gowp(stars: 482)](https://github.com/xxjwxc/gowp) - gowp is concurrency limiting goroutine pool.
 - [gpool(stars: 87)](https://github.com/Sherifabdlnaby/gpool) - manages a resizeable pool of context-aware goroutines to bound concurrency.
 - [grpool(stars: 734)](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
@@ -1262,14 +1262,14 @@ _Tools for managing and working with Goroutines._
 - [pond(stars: 1039)](https://github.com/alitto/pond) - Minimalistic and High-performance goroutine worker pool written in Go.
 - [pool(stars: 721)](https://github.com/go-playground/pool) - Limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation.
 - [queue(stars: 15)](https://github.com/AnikHasibul/queue) - Gives you a `sync.WaitGroup` like queue group accessibility. Helps you to throttle and limit goroutines, wait for the end of the all goroutines and much more.
-- [routine(stars: 162)](https://github.com/timandy/routine) - `routine` is a `ThreadLocal` for go library. It encapsulates and provides some easy-to-use, non-competitive, high-performance `goroutine` context access interfaces, which can help you access coroutine context information more gracefully.
+- [routine(stars: 163)](https://github.com/timandy/routine) - `routine` is a `ThreadLocal` for go library. It encapsulates and provides some easy-to-use, non-competitive, high-performance `goroutine` context access interfaces, which can help you access coroutine context information more gracefully.
 - [routine(stars: 61)](https://github.com/x-mod/routine) - go routine control with context, support: Main, Go, Pool and some useful Executors.
 - [semaphore(stars: 95)](https://github.com/kamilsk/semaphore) - Semaphore pattern implementation with timeout of lock/unlock operations based on channel and context.
 - [semaphore(stars: 164)](https://github.com/marusama/semaphore) - Fast resizable semaphore implementation based on CAS (faster than channel-based semaphore implementations).
 - [stl(stars: 27)](https://github.com/ssgreg/stl) - Software transactional locks based on Software Transactional Memory (STM) concurrency control mechanism.
-- [threadpool(stars: 97)](https://github.com/shettyh/threadpool) - Golang threadpool implementation.
-- [tunny(stars: 3712)](https://github.com/Jeffail/tunny) - Goroutine pool for golang.
-- [worker-pool(stars: 88)](https://github.com/vardius/worker-pool) - goworker is a Go simple async worker pool.
+- [threadpool(stars: 96)](https://github.com/shettyh/threadpool) - Golang threadpool implementation.
+- [tunny(stars: 3713)](https://github.com/Jeffail/tunny) - Goroutine pool for golang.
+- [worker-pool(stars: 89)](https://github.com/vardius/worker-pool) - goworker is a Go simple async worker pool.
 - [workerpool(stars: 1176)](https://github.com/gammazero/workerpool) - Goroutine pool that limits the concurrency of task execution, not the number of tasks queued.
 
 **[⬆ back to top](#contents)**
@@ -1280,22 +1280,22 @@ _Libraries for building GUI Applications._
 
 _Toolkits_
 
-- [app(stars: 7412)](https://github.com/murlokswarm/app) - Package to create apps with GO, HTML and CSS. Supports: MacOS, Windows in progress.
-- [energy(stars: 168)](https://github.com/energye/energy) - Cross-platform based on LCL(Native System UI Control Library) and CEF(Chromium Embedded Framework) (Windows/ macOS / Linux)
-- [fyne(stars: 21888)](https://github.com/fyne-io/fyne) - Cross platform native GUIs designed for Go based on Material Design. Supports: Linux, macOS, Windows, BSD, iOS and Android.
+- [app(stars: 7413)](https://github.com/murlokswarm/app) - Package to create apps with GO, HTML and CSS. Supports: MacOS, Windows in progress.
+- [energy(stars: 170)](https://github.com/energye/energy) - Cross-platform based on LCL(Native System UI Control Library) and CEF(Chromium Embedded Framework) (Windows/ macOS / Linux)
+- [fyne(stars: 21900)](https://github.com/fyne-io/fyne) - Cross platform native GUIs designed for Go based on Material Design. Supports: Linux, macOS, Windows, BSD, iOS and Android.
 - [gio](https://gioui.org) - Gio is a library for writing cross-platform immediate mode GUI-s in Go. Gio supports all the major platforms: Linux, macOS, Windows, Android, iOS, FreeBSD, OpenBSD and WebAssembly.
-- [go-astilectron(stars: 4860)](https://github.com/asticode/go-astilectron) - Build cross platform GUI apps with GO and HTML/JS/CSS (powered by Electron).
+- [go-astilectron(stars: 4862)](https://github.com/asticode/go-astilectron) - Build cross platform GUI apps with GO and HTML/JS/CSS (powered by Electron).
 - [go-gtk](https://mattn.github.io/go-gtk/) - Go bindings for GTK.
-- [go-sciter(stars: 2546)](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development. Cross platform.
+- [go-sciter(stars: 2547)](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development. Cross platform.
 - [goradd/html5tag(stars: 6)](https://github.com/goradd/html5tag) - Library for outputting HTML5 tags.
-- [gotk3(stars: 1968)](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
+- [gotk3(stars: 1971)](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 - [gowd(stars: 415)](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
-- [qt(stars: 10028)](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
+- [qt(stars: 10029)](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
 - [ui(stars: 8303)](https://github.com/andlabs/ui) - Platform-native GUI library for Go. Cross platform.
 - [unison(stars: 110)](https://github.com/richardwilkes/unison) - A unified graphical user experience toolkit for Go desktop applications. macOS, Windows, and Linux are supported.
 - [Wails](https://wails.io) - Mac, Windows, Linux desktop apps with HTML UI using built-in OS HTML renderer.
-- [walk(stars: 6593)](https://github.com/lxn/walk) - Windows application library kit for Go.
-- [webview(stars: 11641)](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
+- [walk(stars: 6595)](https://github.com/lxn/walk) - Windows application library kit for Go.
+- [webview(stars: 11643)](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
 
 _Interaction_
 
@@ -1306,7 +1306,7 @@ _Interaction_
 - [robotgo(stars: 8845)](https://github.com/go-vgo/robotgo) - Go Native cross-platform GUI system automation. Control the mouse, keyboard and other.
 - [systray(stars: 2955)](https://github.com/getlantern/systray) - Cross platform Go library to place an icon and menu in the notification area.
 - [trayhost(stars: 245)](https://github.com/shurcooL/trayhost) - Cross-platform Go library to place an icon in the host operating system's taskbar.
-- [zenity(stars: 567)](https://github.com/ncruces/zenity) - Cross-platform Go library and CLI to create simple dialogs that interact graphically with the user.
+- [zenity(stars: 568)](https://github.com/ncruces/zenity) - Cross-platform Go library and CLI to create simple dialogs that interact graphically with the user.
 
 **[⬆ back to top](#contents)**
 
@@ -1330,14 +1330,14 @@ _Libraries, tools, and tutorials for interacting with hardware._
 _Libraries for manipulating images._
 
 - [bild(stars: 3862)](https://github.com/anthonynsimon/bild) - Collection of image processing algorithms in pure Go.
-- [bimg(stars: 2423)](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips.
+- [bimg(stars: 2424)](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips.
 - [cameron(stars: 107)](https://github.com/aofei/cameron) - An avatar generator for Go.
 - [canvas(stars: 1359)](https://github.com/tdewolff/canvas) - Vector graphics to PDF, SVG or rasterized image.
 - [color-extractor(stars: 68)](https://github.com/marekm4/color-extractor) - Dominant color extractor with no external dependencies.
 - [darkroom(stars: 222)](https://github.com/gojek/darkroom) - An image proxy with changeable storage backends and image processing engines with focus on speed and resiliency.
 - [draft(stars: 572)](https://github.com/lucasepe/draft) - Generate High Level Microservice Architecture diagrams for GraphViz using simple YAML syntax.
 - [geopattern(stars: 1254)](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
-- [gg(stars: 4147)](https://github.com/fogleman/gg) - 2D rendering in pure Go.
+- [gg(stars: 4148)](https://github.com/fogleman/gg) - 2D rendering in pure Go.
 - [gift(stars: 1688)](https://github.com/disintegration/gift) - Package of image processing filters.
 - [gltf(stars: 217)](https://github.com/qmuntal/gltf) - Efficient and robust glTF 2.0 reader, writer and validator.
 - [go-cairo(stars: 135)](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
@@ -1345,17 +1345,17 @@ _Libraries for manipulating images._
 - [go-nude(stars: 395)](https://github.com/koyachi/go-nude) - Nudity detection with Go.
 - [go-webcolors(stars: 27)](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
 - [go-webp(stars: 164)](https://github.com/kolesa-team/go-webp) - Library for encode and decode webp pictures, using libwebp.
-- [gocv(stars: 5891)](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 3.3+.
+- [gocv(stars: 5899)](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 3.3+.
 - [goimagehash(stars: 657)](https://github.com/corona10/goimagehash) - Go Perceptual image hashing package.
 - [goimghdr(stars: 40)](https://github.com/corona10/goimghdr) - The imghdr module determines the type of image contained in a file for Go.
 - [govatar(stars: 573)](https://github.com/o1egl/govatar) - Library and CMD tool for generating funny avatars.
-- [govips(stars: 1018)](https://github.com/davidbyttow/govips) - A lightning fast image processing and resizing library for Go.
-- [gowitness(stars: 2441)](https://github.com/sensepost/gowitness) - Screenshoting webpages using go and headless chrome on command line.
+- [govips(stars: 1019)](https://github.com/davidbyttow/govips) - A lightning fast image processing and resizing library for Go.
+- [gowitness(stars: 2443)](https://github.com/sensepost/gowitness) - Screenshoting webpages using go and headless chrome on command line.
 - [gridder(stars: 66)](https://github.com/shomali11/gridder) - A Grid based 2D Graphics library.
 - [image2ascii(stars: 813)](https://github.com/qeesung/image2ascii) - Convert image to ASCII.
 - [imagick(stars: 1641)](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
 - [imaginary(stars: 5165)](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing.
-- [imaging(stars: 4904)](https://github.com/disintegration/imaging) - Simple Go image processing package.
+- [imaging(stars: 4906)](https://github.com/disintegration/imaging) - Simple Go image processing package.
 - [img(stars: 149)](https://github.com/hawx/img) - Selection of image manipulation tools.
 - [ln(stars: 3211)](https://github.com/fogleman/ln) - 3D line art rendering in Go.
 - [mergi(stars: 209)](https://github.com/noelyahan/mergi) - Tool & Go library for image manipulation (Merge, Crop, Resize, Watermark, Animate).
@@ -1365,12 +1365,12 @@ _Libraries for manipulating images._
 - [pt(stars: 2056)](https://github.com/fogleman/pt) - Path tracing engine written in Go.
 - [rez(stars: 209)](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
 - [scout(stars: 12)](https://github.com/jonoton/scout) - Scout is a standalone open source software solution for DIY video security.
-- [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
-- [steganography](https://github.com/auyer/steganography) - Pure Go Library for LSB steganography.
-- [stegify](https://github.com/DimitarPetrov/stegify) - Go tool for LSB steganography, capable of hiding any file within an image.
-- [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
-- [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
-- [webp-server](https://github.com/mehdipourfar/webp-server) - Simple and minimal image server capable of storing, resizing, converting and caching images.
+- [smartcrop(stars: 1768)](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
+- [steganography(stars: 272)](https://github.com/auyer/steganography) - Pure Go Library for LSB steganography.
+- [stegify(stars: 1137)](https://github.com/DimitarPetrov/stegify) - Go tool for LSB steganography, capable of hiding any file within an image.
+- [svgo(stars: 2055)](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
+- [tga(stars: 34)](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
+- [webp-server(stars: 65)](https://github.com/mehdipourfar/webp-server) - Simple and minimal image server capable of storing, resizing, converting and caching images.
 
 **[⬆ back to top](#contents)**
 
@@ -1379,10 +1379,10 @@ _Libraries for manipulating images._
 _Libraries for programming devices of the IoT._
 
 - [connectordb](https://github.com/connectordb/connectordb) - Open-Source Platform for Quantified Self & IoT.
-- [devices](https://github.com/goiot/devices) - Suite of libraries for IoT devices, experimental for x/exp/io.
-- [ekuiper](https://github.com/lf-edge/ekuiper) - Lightweight data stream processing engine for IoT edge.
-- [eywa](https://github.com/xcodersun/eywa) - Project Eywa is essentially a connection manager that keeps track of connected devices.
-- [flogo](https://github.com/tibcosoftware/flogo) - Project Flogo is an Open Source Framework for IoT Edge Apps & Integration.
+- [devices(stars: 261)](https://github.com/goiot/devices) - Suite of libraries for IoT devices, experimental for x/exp/io.
+- [ekuiper(stars: 1226)](https://github.com/lf-edge/ekuiper) - Lightweight data stream processing engine for IoT edge.
+- [eywa(stars: 61)](https://github.com/xcodersun/eywa) - Project Eywa is essentially a connection manager that keeps track of connected devices.
+- [flogo(stars: 2335)](https://github.com/tibcosoftware/flogo) - Project Flogo is an Open Source Framework for IoT Edge Apps & Integration.
 - [gatt](https://github.com/paypal/gatt) - Gatt is a Go package for building Bluetooth Low Energy peripherals.
 - [gobot](https://github.com/hybridgroup/gobot/) - Gobot is a framework for robotics, physical computing, and the Internet of Things.
 - [huego](https://github.com/amimof/huego) - An extensive Philips Hue client library for Go.
@@ -2155,7 +2155,7 @@ _Libraries that are used to help make your application more secure._
 - [nacl](https://github.com/kevinburke/nacl) - Go implementation of the NaCL set of API's.
 - [optimus-go](https://github.com/pjebs/optimus-go) - ID hashing and Obfuscation using Knuth's Algorithm.
 - [passlib](https://github.com/hlandau/passlib) - Futureproof password hashing library.
-- [secret](https://github.com/rsjethani/secret) - Prevent your secrets from leaking into logs, std\* etc.
+- [secret(stars: 24)](https://github.com/rsjethani/secret) - Prevent your secrets from leaking into logs, std\* etc.
 - [secure](https://github.com/unrolled/secure) - HTTP middleware for Go that facilitates some quick security wins.
 - [secureio](https://github.com/xaionaro-go/secureio) - An keyexchanging+authenticating+encrypting wrapper and multiplexer for `io.ReadWriteCloser` based on XChaCha20-poly1305, ECDH and ED25519.
 - [simple-scrypt](https://github.com/elithrar/simple-scrypt) - Scrypt package with a simple, obvious API and automatic cost calibration built-in.
